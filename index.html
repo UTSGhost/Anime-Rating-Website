@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>UTSGhost's Anime Ratings</title>
+</head>
+<body style="overflow-x: scroll;">
+    <div id="full">
+        <div id="ft">
+            <table id="firsttable">
+                <thead>
+                    <tr class="mid">
+                        <th>
+                            &nbsp;
+                        </th>
+                    </tr>
+                    <tr class="greyrow">
+                        <th>
+                            #
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="counterbody">
+
+                </tbody>
+            </table>
+        </div>
+        <div id="mt">
+            <table id="mainTable">
+                <thead id="mainth">
+                    <tr class="maintitle">
+                        <th colspan="4">   
+                            <h1>UTSGhost's Anime Ratings</h1> 
+                        </th>
+                        <th colspan="2" id="meanscoreplace">
+
+                        </th>
+                        <th>
+                            <div class="dropdown">
+                                <button onclick="showsort()" class="dropbtn">Sort</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'number');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                ID
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'number');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'title');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Title
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'title');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'alttitle');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Alternative Title
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'alttitle');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'season');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Season
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'season');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'type');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Type
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'type');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'mal_rating');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                MAL Rating
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'mal_rating');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'content_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Objective
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'content_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'feeling_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Subjective
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'feeling_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'characters_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Characters
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'characters_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'writing_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Writing
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'writing_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'sound_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Sound/Music
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'sound_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'art_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Art
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'art_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'emotions_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Emotions
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'emotions_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'content_f_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Story
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'content_f_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'characters_f_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Characters(Subj)
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'characters_f_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'memory_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Memory
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'memory_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'protagonist_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Protagonist
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'protagonist_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'antagonist_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Antagonist
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'antagonist_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'side_characters_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Side Characters
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'side_characters_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'waifus_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Realistic
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'waifus_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'writing_style_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Plot
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'writing_style_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'logical_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Logical
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'logical_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'ending_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Ending
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'ending_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'op_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                OP/ED
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'op_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'sfx_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                SFX
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'sfx_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'ost_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                OST
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'ost_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'va_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                VA
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'va_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'animation_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Animation
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'animation_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'character_design_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Character Design
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'character_desing_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'world_building_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                World-Building
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'world_building_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'strong_emotions_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Strong Emotions
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'strong_emotions_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'multiple_emotions_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Vibe
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'multiple_emotions_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'special_moments_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Climax
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'special_moments');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'satisfying_ending_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Satisfying Ending
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'satisfying_ending_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'no_bad_scenes_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Meaningful Scenes
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'no_bad_scenes_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'enjoyable_content_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Enjoyable Content
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'enjoyable_content');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'likeable_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Likeable
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'likeable_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'realistic_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Waifus
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'realistic_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'balanced_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Relationships
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'balanced_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'addictive_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Addictive
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'addictive_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'nostalgia_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Nostalgia
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'nostalgia_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:sort(true, 'aftertaste_score');"><img class="asc" src="../img/arrow.png"></a>
+                                            </td>
+                                            <td>
+                                                Aftertaste
+                                            </td>
+                                            <td>
+                                                <a href="javascript:sort(false, 'aftertaste_score');" ><img class="desc" src="../img/arrow.png"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                              </div> 
+                        </th>
+                    </tr> 
+                    <tr class="bar">
+                        <th style="text-align: center;" class="img">
+                            Image
+                        </th>
+                        <th class="number">
+                            ID
+                        </th>
+                        <th class="title">
+                            Title
+                        </th>
+                        <th class="alttitle">
+                            Alternative Title
+                        </th>
+                        <th class="season">
+                            Season
+                        </th>
+                        <th class="type">
+                            Type
+                        </th>
+                        <th class="mal_rating">
+                            MAL Rating
+                        </th>
+                </tr>
+                <tr>
+                </thead>
+                <tbody id="foo">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="/script.js"></script>
+</body>
+</html>

@@ -15,47 +15,7 @@ $.getJSON('rating.json', function(data) {
         const a = arr[i].rating.objective
         const b = arr[i].rating.subjective
 
-        a.characters.realistic = b.characters.realistic
-        delete b.characters.realistic
-
-        b.characters.waifus = a.characters.waifus
-        delete a.characters.waifus
-
-        b.characters.relationships = b.characters.balance_anta_protag
-        delete b.characters.balance_anta_protag
-
-        a.writing.plot = a.writing.general_writing_style
-        delete a.writing.general_writing_style
-
-        b.emotions.vibe = b.emotions.multiple_no_focused
-        b.emotions.climax = b.emotions.special_moments_episodes
-
-        delete b.emotions.multiple_no_focused
-        delete b.emotions.special_moments_episodes
-
-        b.e = b.emotions
-        
-        b.s = b.content 
-        delete b.content
-
-        b.c = b.characters
-        b.m = b.memory
-        delete b.emotions
-        delete b.characters
-        delete b.memory
-
-
-
-        b.emotions = b.e
-        
-        b.story = b. s
-        delete b.s
-
-        b.characters = b.c
-        b.memory = b.m
-        delete b.e
-        delete b.c
-        delete b.m
+        arr[i].rating.explain = "";
 
 
     }
@@ -192,7 +152,7 @@ $.getJSON('rating.json', function(data) {
     let season = dataarr.season;
 
     let rating = dataarr.rating
-    
+    let explain = rating.explain
 
     let objective = rating.objective
     
@@ -254,7 +214,7 @@ $.getJSON('rating.json', function(data) {
     let fullrate = objectiver + subjectiver
     let malrate = Math.round((fullrate + Number.EPSILON) * 100) / 1000
 
-    return `<td colspan="7"><table class="celltable"><tbody><tr><td class="img"><img src="${img}" alt=""></td><td class="number"><a href="${mal}" target="_blank">${id}</a></td><td class="title">${name}</td><td class="alttitle">${altname}</td><td class="season">${season}</td><td class="type">${type}</td><td class="mal_rating">${malrate}</td></tr><tr class="ratingrow"><td colspan="7"><table class="green"><thead><tr><th class="content_score">Objective ${objectiver}/50</th><th class="feeling_score">Subjective ${subjectiver}/50</th></tr></thead><tbody><tr><td><table class="red"><thead><tr><td class="characters_score">Characters ${obj_character_rating}/15</td><td class="writing_score">Writing ${obj_writing_rating}/15</td><td class="sound_score">Sound/Music ${obj_sound_rating}/10</td><td class="art_score">Art ${obj_art_rating}/10</td></tr></thead><tbody><tr><td><table class="blue"><thead><tr><td>Protagonist</td><td>Antagonist</td><td>Side Characters</td><td>Realistic</td></tr></thead><tbody><tr><td class="protagonist_score">${obj_protag}</td><td class="antagonist_score">${obj_antag}</td><td class="side_characters_score">${obj_side}</td><td class="waifus_score">${obj_real}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Plot</td><td>Logical</td><td>Ending</td></tr></thead><tbody><tr><td class="writing_style_score">${obj_plot}</td><td class="logical_score">${obj_logical}</td><td class="ending_score">${obj_ending}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>OP/ED</td><td>SFX</td><td>OST</td><td>VA</td></tr></thead><tbody><tr><td class="op_score">${obj_op}</td><td class="sfx_score">${obj_sfx}</td><td class="ost_score">${obj_ost}</td><td class="va_score">${obj_va}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Animation</td><td>Character Design</td><td>World-Building</td></tr></thead><tbody><tr><td class="animation_score">${obj_animation}</td><td class="character_design_score">${obj_design}</td><td class="world_building_score">${obj_world}</td></tr></tbody></table></td></tr></tbody></table></td><td><table class="red"><thead><tr><td class="emotions_score">Emotions ${subj_emotions_rating}/15</td><td class="content_f_score">Story ${subj_story_rating}/15</td><td class="characters_f_score">Characters ${subj_characters_rating}/10</td><td class="memory_score">Memory ${subj_memory_rating}/10</td></tr></thead><tbody><tr><td><table class="blue"><thead><tr><td>Strong Emotions</td><td>Vibe</td><td>Climax</td></tr></thead><tbody><tr><td class="strong_emotions_score">${subj_comedic}</td><td class="multiple_emotions_score">${subj_vibe}</td><td class="special_moments_score">${subj_climax}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Satisfying Ending</td><td>Meaningful Scenes</td><td>Enjoyable Content</td></tr></thead><tbody><tr><td class="satisfying_ending_score">${subj_ending}</td><td class="no_bad_scenes_score">${subj_nobadscenes}</td><td class="enjoyable_content_score">${subj_enjoyable}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Likeable</td><td>Waifus</td><td>Relationships</td></tr></thead><tbody><tr><td class="likeable_score">${subj_like}</td><td class="realistic_score">${subj_waifu}</td><td class="balanced_score">${subj_relation}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Addictive</td><td>Nostalgia</td><td>Aftertaste</td></tr></thead><tbody><tr><td class="addictive_score">${subj_addictive}</td><td class="nostalgia_score">${subj_nostalgia}</td><td class="aftertaste_score">${subj_aftertaste}</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td>`;
+    return `<td colspan="7"><table class="celltable"><tbody><tr><td class="img"><img src="${img}" alt=""></td><td class="number"><a href="${mal}" target="_blank">${id}</a></td><td class="title">${name}</td><td class="alttitle">${altname}</td><td class="season">${season}</td><td class="type">${type}</td><td class="mal_rating">${malrate}<div class="hoverrating">${explain}</div></td></tr><tr class="ratingrow"><td colspan="7"><table class="green"><thead><tr><th class="content_score">Objective ${objectiver}/50</th><th class="feeling_score">Subjective ${subjectiver}/50</th></tr></thead><tbody><tr><td><table class="red"><thead><tr><td class="characters_score">Characters ${obj_character_rating}/15</td><td class="writing_score">Writing ${obj_writing_rating}/15</td><td class="sound_score">Sound/Music ${obj_sound_rating}/10</td><td class="art_score">Art ${obj_art_rating}/10</td></tr></thead><tbody><tr><td><table class="blue"><thead><tr><td>Protagonist</td><td>Antagonist</td><td>Side Characters</td><td>Realistic</td></tr></thead><tbody><tr><td class="protagonist_score">${obj_protag}</td><td class="antagonist_score">${obj_antag}</td><td class="side_characters_score">${obj_side}</td><td class="waifus_score">${obj_real}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Plot</td><td>Logical</td><td>Ending</td></tr></thead><tbody><tr><td class="writing_style_score">${obj_plot}</td><td class="logical_score">${obj_logical}</td><td class="ending_score">${obj_ending}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>OP/ED</td><td>SFX</td><td>OST</td><td>VA</td></tr></thead><tbody><tr><td class="op_score">${obj_op}</td><td class="sfx_score">${obj_sfx}</td><td class="ost_score">${obj_ost}</td><td class="va_score">${obj_va}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Animation</td><td>Character Design</td><td>World-Building</td></tr></thead><tbody><tr><td class="animation_score">${obj_animation}</td><td class="character_design_score">${obj_design}</td><td class="world_building_score">${obj_world}</td></tr></tbody></table></td></tr></tbody></table></td><td><table class="red"><thead><tr><td class="emotions_score">Emotions ${subj_emotions_rating}/15</td><td class="content_f_score">Story ${subj_story_rating}/15</td><td class="characters_f_score">Characters ${subj_characters_rating}/10</td><td class="memory_score">Memory ${subj_memory_rating}/10</td></tr></thead><tbody><tr><td><table class="blue"><thead><tr><td>Strong Emotions</td><td>Vibe</td><td>Climax</td></tr></thead><tbody><tr><td class="strong_emotions_score">${subj_comedic}</td><td class="multiple_emotions_score">${subj_vibe}</td><td class="special_moments_score">${subj_climax}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Satisfying Ending</td><td>Meaningful Scenes</td><td>Enjoyable Content</td></tr></thead><tbody><tr><td class="satisfying_ending_score">${subj_ending}</td><td class="no_bad_scenes_score">${subj_nobadscenes}</td><td class="enjoyable_content_score">${subj_enjoyable}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Likeable</td><td>Waifus</td><td>Relationships</td></tr></thead><tbody><tr><td class="likeable_score">${subj_like}</td><td class="realistic_score">${subj_waifu}</td><td class="balanced_score">${subj_relation}</td></tr></tbody></table></td><td><table class="blue"><thead><tr><td>Addictive</td><td>Nostalgia</td><td>Aftertaste</td></tr></thead><tbody><tr><td class="addictive_score">${subj_addictive}</td><td class="nostalgia_score">${subj_nostalgia}</td><td class="aftertaste_score">${subj_aftertaste}</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td>`;
   }
 
   /////////////////////////
@@ -417,11 +377,6 @@ function showsort() {
     } 
 
 
-function testt(){
-    console.log("a")
-}
-
-
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
@@ -445,3 +400,23 @@ function topFunction() {
 } 
 
 
+function showinfo() {
+    var infoBox = document.getElementById("infobox");
+    if (infoBox.style.display === "none" || infoBox.style.display === "") {
+      infoBox.style.display = "flex";
+      setTimeout(function() {
+        window.addEventListener("click", closeInfoBox);
+      }, 0);
+    } else {
+      infoBox.style.display = "none";
+      window.removeEventListener("click", closeInfoBox);
+    }
+  }
+  
+  function closeInfoBox(event) {
+    var infoBox = document.getElementById("infobox");
+    if (!infoBox.contains(event.target)) {
+      infoBox.style.display = "none";
+      window.removeEventListener("click", closeInfoBox);
+    }
+  }

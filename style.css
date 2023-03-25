@@ -10,6 +10,7 @@ Author: UTSGhost
     color: rgb(211, 211, 211); 
     font-weight: bold;
 }
+
 a {
     color: rgb(169, 182, 255);
 }
@@ -126,15 +127,18 @@ table{
 .dropbtn {
     background-color: rgb(53, 53, 53);
     color: rgb(211, 211, 211); 
-    font-size: 24px;
     border: none;
     cursor: pointer;
-    width:140px;
+    border-radius: 5px;
+    width:135px;
+    height:40px;
+    font-size: 30px;
+    font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
   
-/* Dropdown button on hover & focus */
 
-  
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
@@ -163,6 +167,12 @@ table{
     padding:5px 5px;
 }
   
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    color:rgb(180, 176, 165);
+  }
+  
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: rgb(180, 176, 165);}
   
@@ -179,7 +189,6 @@ table{
     background-color: rgb(39, 39, 39); /* Set a background color */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
     transition: opacity 0.5s ease-out !important;
     opacity: 0;
   }
@@ -195,4 +204,69 @@ table{
     scroll-behavior: smooth;
   }
 
+.malbutton {
+    color:rgb(211, 211, 211);
+    text-decoration: none;
+}
+
+.malbutton:hover {
+    color:rgb(180, 176, 165);
+}
+
+.hoverrating{
+    display: none;
+    position: absolute;
+    background-color: rgb(32, 32, 32);
+    width:100%;
+    font-size: 14px;
+    height:auto;
+    z-index: 1;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.mal_rating:hover .hoverrating{
+    display:flex;
+}
+td {
+    position: relative;
+}
+
+#info {
+    font-size: 30px;
+    color:rgb(211, 211, 211);
+    background-color: #353535;
+    border:none;
+    font-family:'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#info:hover, .info:focus {
+    color:rgb(180, 176, 165);
+}
+
+
+#infobox {
+    display:none;
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(180, 176, 165);
+    padding: 10px;
+    width:1200px;
+    height:900px;
+    opacity: 0.9;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
   

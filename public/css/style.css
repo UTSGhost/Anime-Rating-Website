@@ -1,0 +1,170 @@
+/*
+Author: UTSGhost
+*/
+:root{
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(211, 211, 211); 
+    font-weight: bold;
+}
+a {
+    color: rgb(169, 182, 255);
+}
+table {
+    background-color: rgb(53, 53, 53);
+    border-spacing: 0px;
+}
+#full {
+    display: flex;
+    position: absolute;
+    top:0px;
+    left:0px;
+    flex-direction: row;
+}
+#mt, #ft{
+    display:inline-block;
+}
+.mid, h1 {
+    font-size: 50px;
+}
+.maintitle, .mid {
+    height: 140px;
+}
+table{
+    border-collapse: collapse;
+}
+#counterbody tr, .mainrow{
+    height: 264px;
+    border:1px solid white;
+}
+.red {
+    height: 76px;
+    width: 100%;
+    font-size: 13px;
+}
+.blue {
+    border-spacing: 10px;
+    font-size: 11px;
+    width: 100%;
+    border-right: 1px white solid;
+    height: 48px;
+}
+.green {
+    width:100%;
+    border-top: 1px rgb(114, 114, 114) solid;
+    height: 110px;
+}
+.green th{
+    font-size: 15px;
+}
+.name {
+    width: 900px;
+    background-color:khaki
+}
+#foo tr td {
+    padding: 0px;
+}
+.bar > th, .greyrow{
+    background-color: rgb(32, 32, 32);
+    font-size: 20px;
+    height: 60px;
+    padding: 0px;
+}
+.ratinglist{
+    text-align: left;
+}
+.asc{
+    width: 10px;
+}
+.desc{
+    width: 10px;
+    transform: rotate(180deg);
+}
+#meanscoreplace{
+    text-align: left;
+    font-size: 30px;
+}
+.season, .type{
+    width: 11%;
+}
+.img{
+    width: 8%;
+    text-align: left;
+}
+.img img{
+    height: 150px;
+    vertical-align: middle;
+    max-width:158px;
+}
+.number{
+    width: 7%;
+}
+.title, .alttitle{
+    width:25%;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.mal_rating{
+    width:13%
+}
+#firsttable{
+    width: 3vw;
+}
+#mainTable{
+    width:97vw;
+}
+.celltable{
+    width: 100%;
+}
+
+
+/*Dropdown*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(53, 53, 53);
+    color: rgb(211, 211, 211); 
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    width:140px;
+}
+  
+/* Dropdown button on hover & focus */
+
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(32, 32, 32); 
+    width: 135px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 10px;
+}
+  
+.dropdown-content table {
+    background-color: rgb(32, 32, 32);
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:5px 5px;
+}
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(180, 176, 165);}
+  
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

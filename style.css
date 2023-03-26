@@ -1,7 +1,15 @@
 /*
 Author: UTSGhost
 */
-:root{
+@font-face {
+    font-family: 'Nunito';
+    src: url('font/Nunito-VariableFont_wght.woff2') format('woff2'),
+         url('font/Nunito-VariableFont_wght.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+:root {
     overflow-x: hidden;
     overflow-y: auto;
     text-align: center;
@@ -10,6 +18,7 @@ Author: UTSGhost
     color: rgb(211, 211, 211); 
     font-weight: bold;
 }
+
 
 a {
     color: rgb(169, 182, 255);
@@ -227,9 +236,10 @@ table{
     align-items: center;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    border: 1px solid rgb(180, 176, 165);
 }
 
-.mal_rating:hover .hoverrating{
+.review:hover .hoverrating{
     display:flex;
 }
 td {

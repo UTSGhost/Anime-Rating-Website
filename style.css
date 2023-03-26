@@ -152,7 +152,7 @@ table{
 .dropdown {
     position: relative;
     display: inline-block;
-    z-index: 999;
+    z-index: 998;
 }
   
 /* Dropdown Content (Hidden by Default) */
@@ -262,15 +262,15 @@ td {
 #infobox {
     display:none;
     position: fixed;
-    z-index: 998;
+    z-index: 999;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(32, 32, 32);
     border: 2px solid rgb(180, 176, 165);
-    padding: 10px;
-    width:1500px;
-    height:900px;
+    padding: 20px;
+    width:1300px;
+    height:auto;
     opacity: 0.95;
     word-wrap: break-word;
     overflow-wrap: break-word;

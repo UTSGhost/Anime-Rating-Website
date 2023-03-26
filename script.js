@@ -413,12 +413,18 @@ function showinfo() {
       infoBox.style.display = "none";
       window.removeEventListener("click", closeInfoBox);
     }
-  }
+}
   
-  function closeInfoBox(event) {
+function closeInfoBox(event) {
     var infoBox = document.getElementById("infobox");
     if (!infoBox.contains(event.target)) {
       infoBox.style.display = "none";
       window.removeEventListener("click", closeInfoBox);
     }
-  }
+}
+
+
+function discord(){
+  navigator.clipboard.writeText("UTSGhost#4892");
+  alert("Copied Discord Tag: UTSGhost#4892");
+}

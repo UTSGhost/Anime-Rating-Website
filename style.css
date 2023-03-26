@@ -236,7 +236,6 @@ table{
     align-items: center;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    border: 1px solid rgb(180, 176, 165);
 }
 
 .review:hover .hoverrating{
@@ -270,13 +269,134 @@ td {
     background-color: rgb(32, 32, 32);
     border: 2px solid rgb(180, 176, 165);
     padding: 10px;
-    width:1200px;
+    width:1500px;
     height:900px;
     opacity: 0.95;
     word-wrap: break-word;
     overflow-wrap: break-word;
     justify-content:center;
   }
-  
-  
-  
+
+.explain_all {
+    display:none;
+    position: absolute;
+    background-color: rgb(32, 32, 32);
+    width:90%;
+    height:auto;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-height: 40px;
+    opacity: 0.95;
+    padding: 5%;
+    min-width: 50px;
+}
+.characters_score:hover .explain_obj_character{
+    display:flex;
+}
+.hover_protag:hover .explain_protag{
+    display:flex;
+}
+
+.hover_antag:hover .explain_antag{
+    display:flex;
+}
+.hover_side:hover .explain_side{
+    display:flex;
+}
+.hover_real:hover .explain_real{
+    display:flex;
+}
+.hover_plot:hover .explain_plot{
+    display:flex;
+}
+.hover_logical:hover .explain_logical{
+    display:flex;
+}
+.hover_ending:hover .explain_ending{
+    display:flex;
+}
+.hover_op:hover .explain_op{
+    display:flex;
+}
+.hover_sfx:hover .explain_sfx{
+    display:flex;
+}
+.hover_ost:hover .explain_ost{
+    display:flex;
+}
+.hover_va:hover .explain_va{
+    display:flex;
+}
+.hover_animation:hover .explain_animation{
+    display:flex;
+}
+.hover_characterdesign:hover .explain_characterdesign{
+    display:flex;
+}
+.hover_world:hover .explain_world{
+    display:flex;
+}
+.hover_strongemotions:hover .explain_strongemotions{
+    display:flex;
+}
+.hover_vibe:hover .explain_vibe{
+    display:flex;
+}
+.hover_:hover .explain_{
+    display:flex;
+}
+.hover_climax:hover .explain_climax{
+    display:flex;
+}
+.hover_satisending:hover .explain_satisending{
+    display:flex;
+}
+.hover_scenes:hover .explain_scenes{
+    display:flex;
+}
+.hover_enjcontent:hover .explain_enjcontent{
+    display:flex;
+}
+.hover_like:hover .explain_like{
+    display:flex;
+}
+.hover_waifus:hover .explain_waifus{
+    display:flex;
+}
+.hover_relation:hover .explain_relation{
+    display:flex;
+}
+.hover_addictive:hover .explain_addictive{
+    display:flex;
+}
+.hover_nostalgia:hover .explain_nostalgia{
+    display:flex;
+}
+.hover_aftertaste:hover .explain_aftertaste{
+    display:flex;
+}
+.writing_score:hover .explain_writing{
+    display:flex;
+}
+.sound_score:hover .explain_sound{
+    display:flex;
+}
+.art_score:hover .explain_art{
+    display:flex;
+}
+.emotions_score:hover .explain_emotions{
+    display:flex;
+}
+.content_f_score:hover .explain_story{
+    display:flex;
+}
+.characters_f_score:hover .explain_subj_characters{
+    display:flex;
+}
+.memory_score:hover .explain_memory{
+    display:flex;
+}
+

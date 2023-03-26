@@ -1,0 +1,211 @@
+<td colspan="7">
+    <table class="celltable">
+        <tbody>
+            <tr>
+                <td class="img"><img src="${img}" alt=""></td>
+                <td class="number"><a href="${mal}" target="_blank">${id}</a></td>
+                <td class="title">${name}</td>
+                <td class="alttitle">${altname}</td>
+                <td class="season">${season}</td>
+                <td class="type">${type}</td>
+                <td class="mal_rating"><span class="review">${malrate}<div class="hoverrating">${explain}</div></span></td>
+            </tr>
+            <tr class="ratingrow">
+                <td colspan="7">
+                    <table class="green">
+                        <thead>
+                            <tr>
+                                <th class="content_score">Objective ${objectiver}/50</th>
+                                <th class="feeling_score">Subjective ${subjectiver}/50</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table class="red">
+                                        <thead>
+                                            <tr>
+                                                <td><span class="characters_score">Characters ${obj_character_rating}/15<div class="explain_obj_character explain_all">This is about the writing of the Characters</div></span></td>
+                                                <td><span class="writing_score">Writing ${obj_writing_rating}/15 <div class="explain_all explain_writing"></div> </span></td>
+                                                <td><span class="sound_score">Sound/Music ${obj_sound_rating}/10<div class="explain_all explain_sound"></div></span></td>
+                                                <td><span class="art_score">Art ${obj_art_rating}/10<div class="explain_all explain_art"></div></span></td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table class="blue">
+                                                        <thead>
+                                                            <tr>
+                                                                <td><span class="hover_protag">Protagonist<div class="explain_all explain_protag">How well the protagonist is written. Sometimes there can be more than 1 protagonist and sometimes I count the main heroine as protagonist as well.</div></span></td>
+                                                                <td><span class="hover_antag">Antagonist<div class="explain_all explain_antag">Same as protagonist, just with your antagonist. If there is no, then the other criterias in the category "Characters" will be rated higher.</div></span></td>
+                                                                <td><span class="hover_side">Side Characters<div class="explain_all explain_side">Pretty self explanatory. Don't ever tell me that there are none.</div></span></td>
+                                                                <td><span class="hover_real">Realistic<div class="explain_all explain_real">This is about the behaviour of the characters. It doesn't always mean that every character should think like how a modern human thinks, just that I'm able to even understand his behaviour a little bit.</div></span></td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="protagonist_score">${obj_protag}</td>
+                                                                <td class="antagonist_score">${obj_antag}</td>
+                                                                <td class="side_characters_score">${obj_side}</td>
+                                                                <td class="waifus_score">${obj_real}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <table class="blue">
+                                                        <thead>
+                                                            <tr>
+                                                                <td><span class="hover_plot">Plot<div class="explain_all explain_plot">This refers to the general story writing, and nothing else...</div></span></td>
+                                                                <td><span class="hover_logical">Logical<div class="explain_all explain_logical">And this refers to Plot holes, if there are any. Basically, a good story has to make sense. Even Comedies.</div></span></td>
+                                                                <td><span class="hover_ending">Ending<div class="explain_all explain_ending">How well-written is the ending?</div></span></td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="writing_style_score">${obj_plot}</td>
+                                                                <td class="logical_score">${obj_logical}</td>
+                                                                <td class="ending_score">${obj_ending}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <table class="blue">
+                                                        <thead>
+                                                            <tr>
+                                                                <td><span class="hover_op">OP/ED<div class="explain_all explain_op"></div></span></td>
+                                                                <td><span class="hover_sfx">SFX<div class="explain_all explain_sfx"></div></span></td>
+                                                                <td><span class="hover_ost">OST<div class="explain_all explain_ost"></div></span></td>
+                                                                <td><span class="hover_va">VA<div class="explain_all explain_va"></div></span></td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="op_score">${obj_op}</td>
+                                                                <td class="sfx_score">${obj_sfx}</td>
+                                                                <td class="ost_score">${obj_ost}</td>
+                                                                <td class="va_score">${obj_va}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <table class="blue">
+                                                        <thead>
+                                                            <tr>
+                                                                <td><span class="hover_animation">Animation<div class="explain_all explain_animation"></div></span></td>
+                                                                <td><span class="hover_characterdesign">Character Design<div class="explain_all explain_characterdesign"></div></span></td>
+                                                                <td><span class="hover_world">World-Building<div class="explain_all explain_world"></div></span></td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="animation_score">${obj_animation}</td>
+                                                                <td class="character_design_score">${obj_design}</td>
+                                                                <td class="world_building_score">${obj_world}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="red">
+                                        <thead>
+                                            <tr>
+                                                <td><span class="emotions_score">Emotions ${subj_emotions_rating}/15<div class="explain_all explain_emotions"></div></span></td>
+                                                <td><span class="content_f_score">Story ${subj_story_rating}/15<div class="explain_all explain_story"></div></span></td>
+                                                <td><span class="characters_f_score">Characters ${subj_characters_rating}/10<div class="explain_all explain_subj_characters"></div></span></td>
+                                                <td><span class="memory_score">Memory ${subj_memory_rating}/10<div class="explain_all explain_memory"></div></span></td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table class="blue">
+                                                        <thead>
+                                                            <tr>
+                                                                <td><span class="hover_strongemotions">Strong Emotions<div class="explain_all explain_strongemotions"></div></span></td>
+                                                                <td><span class="hover_vibe">Vibe<div class="explain_all explain_vibe"></div></span></td>
+                                                                <td><span class="hover_climax">Climax<div class="explain_all explain_climax"></div></span></td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="strong_emotions_score">${subj_comedic}</td>
+                                                                <td class="multiple_emotions_score">${subj_vibe}</td>
+                                                                <td class="special_moments_score">${subj_climax}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <table class="blue">
+                                                        <thead>
+                                                            <tr>
+                                                                <td><span class="hover_satisending">Satisfying Ending<div class="explain_all explain_satisending"></div></span></td>
+                                                                <td><span class="hover_scenes">Meaningful Scenes<div class="explain_all explain_scenes"></div></span></td>
+                                                                <td><span class="hover_enjcontent">Enjoyable Content<div class="explain_all explain_enjcontent"></div></span></td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="satisfying_ending_score">${subj_ending}</td>
+                                                                <td class="no_bad_scenes_score">${subj_nobadscenes}</td>
+                                                                <td class="enjoyable_content_score">${subj_enjoyable}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <table class="blue">
+                                                        <thead>
+                                                            <tr>
+                                                                <td><span class="hover_like">Likeable<div class="explain_all explain_like"></div></span></td>
+                                                                <td><span class="hover_waifus">Waifus<div class="explain_all explain_waifus"></div></span></td>
+                                                                <td><span class="hover_relation">Relationships<div class="explain_all explain_relation"></div></span></td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="likeable_score">${subj_like}</td>
+                                                                <td class="realistic_score">${subj_waifu}</td>
+                                                                <td class="balanced_score">${subj_relation}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <table class="blue">
+                                                        <thead>
+                                                            <tr>
+                                                                <td><span class="hover_addictive">Addictive<div class="explain_all explain_addictive"></div></span></td>
+                                                                <td><span class="hover_nostalgia">Nostalgia<div class="explain_all explain_nostalgia"></div></span></td>
+                                                                <td><span class="hover_aftertaste">Aftertaste<div class="explain_all explain_aftertaste"></div></span></td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="addictive_score">${subj_addictive}</td>
+                                                                <td class="nostalgia_score">${subj_nostalgia}</td>
+                                                                <td class="aftertaste_score">${subj_aftertaste}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</td>

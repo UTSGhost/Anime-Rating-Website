@@ -283,14 +283,16 @@ function sort(ascending, category) {
   const sortFn = (a, b) => {
     const aVal = getSortValue(a, category);
     const bVal = getSortValue(b, category);
-
+  
     if (typeof aVal === 'string' && typeof bVal === 'string') {
       return ascending ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
     } else {
       return ascending ? aVal - bVal : bVal - aVal;
     }
-    
   };
+  
+  
+  
 
   const sortedRows = Array.from(rows).sort(sortFn);
 
@@ -305,7 +307,7 @@ function getSortValue(row, category) {
     ? row.getElementsByClassName(category)[0].children[0]
     : row.getElementsByClassName(category)[0];
 
-  let value = valueEl.innerHTML;
+  let value = valueEl.textContent;
 
   if (value === "") {
     return ""; // Return empty string if value is empty
@@ -337,6 +339,7 @@ function getSortValue(row, category) {
       "Emotions ",
       "Content ",
       "Memory ",
+      "Story ",
     ];
 
     for (let i = 0; i < arrofreplace.length; i++) {
@@ -354,6 +357,7 @@ function getSortValue(row, category) {
 
   return value;
 }
+
 
 
 

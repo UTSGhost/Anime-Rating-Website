@@ -282,83 +282,80 @@ function sort(ascending, category) {
   const rows = tbody.getElementsByClassName("mainrow");
 
   const sortFn = (a, b) => {
-      const aVal = getSortValue(a, category);
-      const bVal = getSortValue(b, category);
+    const aVal = getSortValue(a, category);
+    const bVal = getSortValue(b, category);
 
-      if (!isNaN(aVal) && !isNaN(bVal)) {
-          if (aVal < bVal) {
-              return ascending ? -1 : 1;
-          } else if (aVal > bVal) {
-              return ascending ? 1 : -1;
-          }
-          return 0;
-      }
-
-      return ascending
-          ? aVal.localeCompare(bVal)
-          : bVal.localeCompare(aVal);
+    if (typeof aVal === 'string' && typeof bVal === 'string') {
+      return ascending ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+    } else {
+      return ascending ? aVal - bVal : bVal - aVal;
+    }
+    
   };
 
   const sortedRows = Array.from(rows).sort(sortFn);
 
   for (let i = 0; i < sortedRows.length; i++) {
-      tbody.appendChild(sortedRows[i]);
+    tbody.appendChild(sortedRows[i]);
   }
   console.log("done sorting");
 }
 
 function getSortValue(row, category) {
   const valueEl = category === "number"
-      ? row.getElementsByClassName(category)[0].children[0]
-      : row.getElementsByClassName(category)[0];
+    ? row.getElementsByClassName(category)[0].children[0]
+    : row.getElementsByClassName(category)[0];
 
   let value = valueEl.innerHTML;
 
   if (value === "") {
-      return ""; // Return empty string if value is empty
+    return ""; // Return empty string if value is empty
   }
 
   if (
-      [
-          "characters_score",
-          "writing_score",
-          "emotions_score",
-          "content_f_score",
-          "feeling_score",
-          "content_score",
-          "sound_score",
-          "art_score",
-          "characters_f_score",
-          "memory_score",
-      ].includes(category)
+    [
+      "characters_score",
+      "writing_score",
+      "emotions_score",
+      "content_f_score",
+      "feeling_score",
+      "content_score",
+      "sound_score",
+      "art_score",
+      "characters_f_score",
+      "memory_score",
+    ].includes(category)
   ) {
-      const arrofreplace = [
-          "/15",
-          "/50",
-          "Characters ",
-          "Feeling ",
-          "/10",
-          "Writing ",
-          "Sound/Music ",
-          "Art ",
-          "Emotions ",
-          "Content ",
-          "Memory ",
-      ];
+    const arrofreplace = [
+      "/15",
+      "/50",
+      "Characters ",
+      "Feeling ",
+      "/10",
+      "Writing ",
+      "Sound/Music ",
+      "Art ",
+      "Emotions ",
+      "Content ",
+      "Memory ",
+    ];
 
-      for (let i = 0; i < arrofreplace.length; i++) {
-          if (value.includes(arrofreplace[i])) {
-              value = value.replace(arrofreplace[i], "");
-          }
+    for (let i = 0; i < arrofreplace.length; i++) {
+      if (value.includes(arrofreplace[i])) {
+        value = value.replace(arrofreplace[i], "");
       }
+    }
   }
 
-  if (!isNaN(value)) {
-      return parseFloat(value);
+  // Convert the value to a number if it is a valid number string
+  const num = parseFloat(value);
+  if (!isNaN(num)) {
+    return num;
   }
 
   return value;
 }
+
 
 
 

@@ -122,15 +122,21 @@ $.getJSON('rating.json', function(data) {
 
   $('#mainTable tbody tr .mal_rating').each(function() {
     let scores = $(this).html()
-    meanscore += parseFloat(scores)
-    meanscorediv++
-    if (scores == 0){
+    let scoreMatch = scores.match(/-?\d+(\.\d+)?/)
+    if (scoreMatch) {
+      let score = parseFloat(scoreMatch[0])
+      meanscore += score
+      meanscorediv++
+      if (score == 0){
         meanscorediv--
+      }
+      console.log(score)
+      let meanscoredivision = meanscore / meanscorediv
+      let meanscoreround = (Math.round((meanscoredivision + Number.EPSILON) * 100) / 100)
+      document.getElementById("meanscoreplace").innerHTML = `<p>Mean Score: ${meanscoreround}</p>`
     }
-    let meanscoredivision = meanscore / meanscorediv
-    let meanscoreround = (Math.round((meanscoredivision + Number.EPSILON) * 100) / 100)
-    document.getElementById("meanscoreplace").innerHTML = `<p>Mean Score: ${meanscoreround}</p>`
   });
+  
 
   function addAnother(counter) { 
     let currentDiv = document.getElementById("foo")

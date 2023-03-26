@@ -143,6 +143,7 @@ table{
 .dropdown {
     position: relative;
     display: inline-block;
+    z-index: 999;
 }
   
 /* Dropdown Content (Hidden by Default) */
@@ -252,7 +253,7 @@ td {
 #infobox {
     display:none;
     position: fixed;
-    z-index: 9999;
+    z-index: 998;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

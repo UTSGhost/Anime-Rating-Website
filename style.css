@@ -34,25 +34,17 @@ table {
     left:0px;
     flex-direction: row;
 }
-#mt, #ft{
-    display:inline-block;
-}
 .mid, h1 {
     font-size: 50px;
 }
-.maintitle, .mid {
-    height:10vw ;
-    max-height: 10vw !important;
+.maintitle {
+    height:10vw;
 }
-@media screen and (max-width: 1612px) {
-    h1 {
-        font-size: 30px;
-    }
+.counterth {
+    width: 3%;
 }
-@media screen and (max-width: 1040px) {
-    h1 {
-        font-size: 20px;
-    }
+#counterbody {
+    border-right: 1px white solid;
 }
 table{
     border-collapse: collapse;
@@ -88,7 +80,7 @@ table{
 #foo tr td {
     padding: 0px;
 }
-.bar > th, .greyrow{
+.bar > th{
     background-color: rgb(32, 32, 32);
     font-size: 20px;
     height: 60px;
@@ -112,7 +104,7 @@ table{
     width: 11%;
 }
 .img{
-    width: 8%;
+    width: 7%;
     text-align: left;
 }
 .img img{
@@ -129,13 +121,10 @@ table{
     padding-right: 30px !important;
 }
 .mal_rating{
-    width:13%
-}
-#firsttable{
-    width: 3vw;
+    width:11%
 }
 #mainTable{
-    width:97vw;
+    width:100vw;
 }
 .celltable{
     width: 100%;

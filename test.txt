@@ -2,6 +2,7 @@
     <table class="celltable">
         <tbody>
             <tr>
+                <td rowspan="2"></td>
                 <td class="img"><img src="${img}" alt=""></td>
                 <td class="number"><a href="${mal}" target="_blank">${id}</a></td>
                 <td class="title">${name}</td>
@@ -209,3 +210,5 @@
         </tbody>
     </table>
 </td>
+
+

@@ -109,16 +109,8 @@ $.getJSON('rating.json', function(data) {
   function add() {
       for (i=1; i<=data.animes.length; i++) {
           addAnother(i,false);
-          //addAnothercounter(i);
       }
   }
-  
-/*
-  function addAnothercounter(counter) { 
-    let currentDiv = document.getElementById("counterbody")
-    let newRow = currentDiv.insertRow();
-    newRow.innerHTML = `<td>${counter}</td>`;
-  }*/
 
   $('#mainTable tbody tr .mal_rating').each(function() {
     let scores = $(this).html()

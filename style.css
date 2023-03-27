@@ -41,7 +41,18 @@ table {
     font-size: 50px;
 }
 .maintitle, .mid {
-    height: 140px;
+    height:10vw ;
+    max-height: 10vw !important;
+}
+@media screen and (max-width: 1612px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    h1 {
+        font-size: 20px;
+    }
 }
 table{
     border-collapse: collapse;

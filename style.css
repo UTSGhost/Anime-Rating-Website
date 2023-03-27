@@ -125,7 +125,7 @@ table{
     padding-right: 30px !important;
 }
 .mal_rating{
-    width:11%
+    width:11% !important;
 }
 #mainTable{
     width:100vw;
@@ -156,7 +156,7 @@ table{
 .dropdown {
     position: relative;
     display: inline-block;
-    z-index: 998;
+    z-index: 997;
 }
   
 /* Dropdown Content (Hidden by Default) */
@@ -228,26 +228,16 @@ table{
 }
 
 .hoverrating{
-    display: none;
-    position: absolute;
-    background-color: rgb(32, 32, 32);
-    width:100%;
-    font-size: 14px;
-    height:auto;
-    z-index: 1;
-    min-height: 60px;
-    justify-content: center;
-    align-items: center;
+    display:none;
+    background-color: #353535;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    height:150px;
 }
 
-.review:hover .hoverrating{
-    display:flex;
-}
-td {
-    position: relative;
-}
+
+
+
 
 #info {
     font-size: 30px;
@@ -304,6 +294,9 @@ td {
 }
 .explain_aftertaste{
     left: 35%;
+}
+td{
+    position: relative;
 }
 @media screen and (max-width: 1835px) {
     .explain_aftertaste{
@@ -463,4 +456,24 @@ td {
 .memory_score:hover .explain_memory{
     display:flex;
 }
+
+.review button {
+    background-color: #353535;
+    color:rgb(211, 211, 211);
+    font-size: 17px;
+    border:rgb(211, 211, 211) solid 2px;
+    padding:15px;
+    border-radius: 5px;
+}
+.review button:hover {
+    cursor: pointer;
+    background-color:rgb(32, 32, 32);
+    border:rgb(211, 211, 211) solid 3px;
+}
+
+.ratingbox {
+    width:86%;
+}
+
+
 

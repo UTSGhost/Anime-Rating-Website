@@ -12,10 +12,8 @@ $.getJSON('rating.json', function(data) {
   function renamestuff() {
     let arr = data.animes;
     for (var i = 0; i < arr.length; i++) {
-        const a = arr[i].rating.objective
-        const b = arr[i].rating.subjective
 
-        arr[i].rating.explain = "";
+        arr[i].rating.explain = "No review written yet";
 
 
     }
@@ -86,7 +84,8 @@ $.getJSON('rating.json', function(data) {
                         "nostalgia": 0
                     }
                 }
-              }
+              },
+              "explain": "No review written yet"
         };
         for(let i=0;i<arr.length;i++){
             if(newanime.id<arr[i].id){

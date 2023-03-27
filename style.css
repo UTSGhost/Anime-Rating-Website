@@ -272,7 +272,7 @@ table{
   }
 
 .explain_all {
-    display:flex;
+    display:block;
     position: absolute;
     background-color: rgb(32, 32, 32);
     width:90%;
@@ -485,7 +485,6 @@ td{
     height: auto;
     visibility: visible;
 }
-
 .hover_waifus:hover .explain_waifus {
     transition-delay: 0.7s;
     height: auto;

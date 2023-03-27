@@ -370,7 +370,7 @@ td {
     display:flex;
 }
 .hover_waifus:hover .explain_waifus{
-    display:flex;
+    display:block;
 }
 .hover_relation:hover .explain_relation{
     display:flex;

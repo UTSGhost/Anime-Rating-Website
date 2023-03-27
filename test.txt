@@ -28,7 +28,7 @@
                                                 <td><span class="characters_score">Characters ${obj_character_rating}/15<div class="explain_obj_character explain_all">This is about the writing of the Characters.</div></span></td>
                                                 <td><span class="writing_score">Writing ${obj_writing_rating}/15 <div class="explain_all explain_writing">If someone asks me about the story quality, I'd show them this score.</div> </span></td>
                                                 <td><span class="sound_score">Sound/Music ${obj_sound_rating}/10<div class="explain_all explain_sound">I don't really need to explain this do I... It's about the music and sound btw.</div></span></td>
-                                                <td><span class="art_score">Art ${obj_art_rating}/10<div class="explain_all explain_art">This includes more then just the animation. Just look below.</div></span></td>
+                                                <td><span class="art_score">Art ${obj_art_rating}/10<div class="explain_all explain_art">This includes more than just the animation. Just look below.</div></span></td>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -40,7 +40,7 @@
                                                                 <td><span class="hover_protag">Protagonist<div class="explain_all explain_protag">How well the protagonist is written. Sometimes there can be more than 1 protagonist and sometimes I count the main heroine as protagonist as well.</div></span></td>
                                                                 <td><span class="hover_antag">Antagonist<div class="explain_all explain_antag">Same as protagonist, just with your antagonist. If there is no, then the other criterias in the category "Characters" will be rated higher.</div></span></td>
                                                                 <td><span class="hover_side">Side Characters<div class="explain_all explain_side">Pretty self explanatory. Don't ever tell me that there are none.</div></span></td>
-                                                                <td><span class="hover_real">Realistic<div class="explain_all explain_real">This is about the behaviour of the characters. It doesn't always mean that every character should think like how a modern human thinks, just that I'm able to even understand his behaviour a little bit.</div></span></td>
+                                                                <td><span class="hover_real">Realistic<div class="explain_all explain_real">This is about the behaviour of the characters. It doesn't always mean that every character should think like how a modern human thinks, just that I'm at least able to understand them a tiny bit.</div></span></td>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
@@ -58,7 +58,7 @@
                                                         <thead>
                                                             <tr>
                                                                 <td><span class="hover_plot">Plot<div class="explain_all explain_plot">This refers to the general story writing, and nothing else...</div></span></td>
-                                                                <td><span class="hover_logical">Logical<div class="explain_all explain_logical">And this refers to Plot holes, if there are any. Basically, a good story has to make sense. Even Comedies.</div></span></td>
+                                                                <td><span class="hover_logical">Logical<div class="explain_all explain_logical">And this refers to plot holes, if there are any. Basically, a good story has to make sense. Even Comedies.</div></span></td>
                                                                 <td><span class="hover_ending">Ending<div class="explain_all explain_ending">How well-written is the ending?</div></span></td>
                                                             </tr>
                                                         </thead>
@@ -75,9 +75,9 @@
                                                     <table class="blue">
                                                         <thead>
                                                             <tr>
-                                                                <td><span class="hover_op">OP/ED<div class="explain_all explain_op">How much of a banger is the opening/ending song/songs of this Anime? If there are more than one opening songs, each of them being slightly above average, I'd still only give it a 3. This is because quality is more important than quantity. If an Anime has many bangers, then the score still wont be skyrocketing, because I'm rating the Anime, not the songs. So every additional opening or ending song is counted less then the previous one.</div></span></td>
+                                                                <td><span class="hover_op">OP/ED<div class="explain_all explain_op">How much of a banger is the opening/ending song/songs of this Anime? If there are multiple songs, each of them being slightly above average, I'd still only score it a 3. This is because quality is more important than quantity. If an Anime has many bangers, the score still wouldn't be skyrocketing, because in the end, I'm rating the Anime, not the songs. So every additional opening or ending song is counted less than the previous one.</div></span></td>
                                                                 <td><span class="hover_sfx">SFX<div class="explain_all explain_sfx">Rating the soundeffects. Not much to say and not much to rate. Will most likely give almost no points.</div></span></td>
-                                                                <td><span class="hover_ost">OST<div class="explain_all explain_ost">The OST can also mean the bakcground music or whatever theme.</div></span></td>
+                                                                <td><span class="hover_ost">OST<div class="explain_all explain_ost">The OST also includes the background music or whatever theme.</div></span></td>
                                                                 <td><span class="hover_va">VA<div class="explain_all explain_va">How well the voice actors performed. Sadly, I'm very biased towards some VAs so this is more or less subjective, but getting points in this category is hard anyways.</div></span></td>
                                                             </tr>
                                                         </thead>
@@ -130,7 +130,7 @@
                                                         <thead>
                                                             <tr>
                                                                 <td><span class="hover_strongemotions">Strong Emotions<div class="explain_all explain_strongemotions">Look and the category above this and you'll get it.</div></span></td>
-                                                                <td><span class="hover_vibe">Vibe<div class="explain_all explain_vibe">Well this one is rather hard to describe, but it is what it says: the vibe of the ENTIRE Anime overall. Affected by the atmosphere and the characters and basically how my attention span was when watchin the Anime, because if I watched it while parallel watching TikTok or some bs, then the vibe would be rather bad.</div></span></td>
+                                                                <td><span class="hover_vibe">Vibe<div class="explain_all explain_vibe">Well this one is rather hard to describe, but it is what it says: the vibe of the Anime overall. Affected by the atmosphere, and the characters, and basically how my attention span was during the Anime, because if I watched it while parallel watching TikTok, then the vibe would be rather bad.</div></span></td>
                                                                 <td><span class="hover_climax">Climax<div class="explain_all explain_climax">The criteria "Strong Emotions" was about how strong my emotions were (who would have thought that), and this is about... well, how strong my emotions where at the parts when I felt the most, if that makes sense (no).</div></span></td>
                                                             </tr>
                                                         </thead>
@@ -147,7 +147,7 @@
                                                     <table class="blue">
                                                         <thead>
                                                             <tr>
-                                                                <td><span class="hover_satisending">Satisfying Ending<div class="explain_all explain_satisending">Ladies and Gentleman, thank you for reading this far. We have now come to the best and worst criteria ever. This ruined way too many Animes. It's obviously about how much I liked the ending of the Anime, not to confused with how well the ending is written (which is another category in "Objective" - "Writing" - "Ending"). If the ending is bad, then everything is. Not only will this get no score or even negative score, but then I'm totally biased against it and I'll try to ruin the score as much as possible. The "Memory" part will also be greatly negatively affected, for very obvious reasons.</div></span></td>
+                                                                <td><span class="hover_satisending">Satisfying Ending<div class="explain_all explain_satisending">Ladies and Gentleman, thank you for reading this far. We have now come to the best and worst criteria ever. This ruined way too many Animes. It's obviously about how much I liked the ending of the Anime, not to confused with how well the ending is written (which is another category in "Objective" - "Writing" - "Ending"). If the ending is bad, then everything is. Not only will this get no score or even negative score, but then I'm totally biased against it and I'll try to ruin the scores as much as possible. The "Memory" part will also be greatly negatively affected, for very obvious reasons.</div></span></td>
                                                                 <td><span class="hover_scenes">Meaningful Scenes<div class="explain_all explain_scenes">If the anime is just good for one half of the Anime, then this score will be low. I will not watch the entirety of One Piece just for it to get good at Episode 945.</div></span></td>
                                                                 <td><span class="hover_enjcontent">Enjoyable Content<div class="explain_all explain_enjcontent">How much I enjoyed it. That's all.</div></span></td>
                                                             </tr>
@@ -167,7 +167,7 @@
                                                             <tr>
                                                                 <td><span class="hover_like">Likeable<div class="explain_all explain_like">Not about how "good" as in heroic the characters were, but how much I liked them. Or still do.</div></span></td>
                                                                 <td><span class="hover_waifus">Waifus<div class="explain_all explain_waifus">Okay this is too obvious now. You can find my Waifu Tierlist <a target="_blank" href="https://tiermaker.com/user/15561215">here</a>, with all the scores for each tier. It's one of the few (or only?) stackable criterias, but of course it cannot exceed a certain amount of points for the entire category.</div></span></td>
-                                                                <td><span class="hover_relation">Relationships<div class="explain_all explain_relation"></div></span></td>
+                                                                <td><span class="hover_relation">Relationships<div class="explain_all explain_relation">If there's a super cute couple which makes my heart pound, this will get a high score. If the chemistry between all the characters is brilliant, then this will get a high score. Of course it's required to have good characters first.</div></span></td>
                                                             </tr>
                                                         </thead>
                                                         <tbody>

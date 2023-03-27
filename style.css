@@ -18,7 +18,11 @@ Author: UTSGhost
     color: rgb(211, 211, 211); 
     font-weight: bold;
 }
-
+@media screen and (max-width: 1212px) {
+    :root{
+        overflow-x: scroll;
+    }
+  }
 
 a {
     color: rgb(169, 182, 255);
@@ -295,10 +299,64 @@ td {
     left: 50%;
     top: 100%;
     transform: translate(-50%, 0);
+    max-height:90vw;
+    max-width:70%;
 }
 .explain_aftertaste{
     left: 35%;
 }
+@media screen and (max-width: 1835px) {
+    .explain_aftertaste{
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    #infobox {
+        font-size: 14px;
+        max-width: 80vw;
+        max-height:90vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    #infobox {
+        font-size: 10px;
+        max-width: 80vw;
+        max-height:90vw;
+    }
+}
+@media screen and (max-width: 610px) {
+    #infobox {
+        font-size: 7px;
+        max-width: 90vw;
+    }
+}
+@media screen and (max-width: 406px) {
+    #infobox {
+        display:none !important;
+    }
+}
+@media screen and (max-height: 717px) {
+    #infobox {
+        font-size: 14px;
+        max-width: 80vw;
+        max-height:90vw;
+    }
+}
+@media screen and (max-height: 560px) {
+    #infobox {
+        font-size: 10px;
+        max-width: 80vw;
+        max-height:90vw;
+    }
+}
+@media screen and (max-height: 370px) {
+    #infobox {
+        display:none !important;
+    }
+}
+
+
 .characters_score:hover .explain_obj_character{
     display:flex;
 }

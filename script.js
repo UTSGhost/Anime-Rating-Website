@@ -4,7 +4,7 @@
 
 var meanscore = 0
 var meanscorediv = 0
-
+var waiting = true
 
 $.getJSON('rating.json', function(data) {
   add();
@@ -109,7 +109,8 @@ $.getJSON('rating.json', function(data) {
   function add() {
       for (i=1; i<=data.animes.length; i++) {
           addAnother(i,false);
-      }
+      } console.log("done")
+      waiting = false;
   }
 
   $('#mainTable tbody tr .mal_rating').each(function() {
@@ -430,7 +431,6 @@ function numberleft(){
   var tbody = document.getElementById("foo");
   var rows = tbody.getElementsByClassName("mainrow");
   var count = 1;
-  console.log(rows)
   for (var i = 0; i < rows.length; i++) {
     var row = rows[i];
     var cell = row.querySelector("#counterbody");
@@ -438,6 +438,16 @@ function numberleft(){
   }
 }
 
-setTimeout(function() {
-  numberleft();
-}, 1);
+function waitforload(){
+  if(!waiting){
+    numberleft();
+    console.log("numbers on screeeeen")
+  }
+  else{
+    setTimeout(function() {
+      waitforload();
+      console.log("wait")
+    }, 1);
+  }
+}
+waitforload()

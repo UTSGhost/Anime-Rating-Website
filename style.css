@@ -272,18 +272,17 @@ table{
   }
 
 .explain_all {
-    display:none;
+    display:flex;
     position: absolute;
     background-color: rgb(32, 32, 32);
     width:90%;
-    height:auto;
+    height:0;
     z-index: 2;
     justify-content: center;
     align-items: center;
     word-wrap: break-word;
     overflow-wrap: break-word;
     min-height: 40px;
-    opacity: 0.95;
     padding: 5%;
     min-width: 100px;
     left: 50%;
@@ -291,6 +290,8 @@ table{
     transform: translate(-50%, 0);
     max-height:90vw;
     max-width:70%;
+    opacity: 0.95;
+    visibility: hidden;
 }
 .explain_aftertaste{
     left: 35%;
@@ -348,113 +349,203 @@ td{
         display:none !important;
     }
 }
-
-
 .characters_score:hover .explain_obj_character{
-    display:flex;
+    transition-delay: 0.7s;
+    height:auto;
+    visibility: visible;
 }
-.hover_protag:hover .explain_protag{
-    display:flex;
+.hover_protag:hover .explain_protag {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 
-.hover_antag:hover .explain_antag{
-    display:flex;
+.hover_antag:hover .explain_antag {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_side:hover .explain_side{
-    display:flex;
+
+.hover_side:hover .explain_side {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_real:hover .explain_real{
-    display:flex;
+
+.hover_real:hover .explain_real {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_plot:hover .explain_plot{
-    display:flex;
+
+.hover_plot:hover .explain_plot {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_logical:hover .explain_logical{
-    display:flex;
+
+.hover_logical:hover .explain_logical {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_ending:hover .explain_ending{
-    display:flex;
+
+.hover_ending:hover .explain_ending {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_op:hover .explain_op{
-    display:flex;
+
+.hover_op:hover .explain_op {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_sfx:hover .explain_sfx{
-    display:flex;
+
+.hover_sfx:hover .explain_sfx {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_ost:hover .explain_ost{
-    display:flex;
+
+.hover_ost:hover .explain_ost {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_va:hover .explain_va{
-    display:flex;
+
+.hover_va:hover .explain_va {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_animation:hover .explain_animation{
-    display:flex;
+
+.hover_animation:hover .explain_animation {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_characterdesign:hover .explain_characterdesign{
-    display:flex;
+
+.hover_characterdesign:hover .explain_characterdesign {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_world:hover .explain_world{
-    display:flex;
+
+.hover_world:hover .explain_world {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_strongemotions:hover .explain_strongemotions{
-    display:flex;
+
+.hover_strongemotions:hover .explain_strongemotions {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_vibe:hover .explain_vibe{
-    display:flex;
+
+.hover_vibe:hover .explain_vibe {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_:hover .explain_{
-    display:flex;
+
+.hover_:hover .explain_ {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_climax:hover .explain_climax{
-    display:flex;
+
+.hover_climax:hover .explain_climax {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_satisending:hover .explain_satisending{
-    display:flex;
+
+.hover_satisending:hover .explain_satisending {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_scenes:hover .explain_scenes{
-    display:flex;
+
+.hover_scenes:hover .explain_scenes {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_enjcontent:hover .explain_enjcontent{
-    display:flex;
+
+.hover_enjcontent:hover .explain_enjcontent {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_like:hover .explain_like{
-    display:flex;
+
+.hover_like:hover .explain_like {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_waifus:hover .explain_waifus{
-    display:block;
+
+.hover_waifus:hover .explain_waifus {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
-.hover_relation:hover .explain_relation{
-    display:flex;
+
+.hover_relation:hover .explain_relation {
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .hover_addictive:hover .explain_addictive{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .hover_nostalgia:hover .explain_nostalgia{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .hover_aftertaste:hover .explain_aftertaste{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .writing_score:hover .explain_writing{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .sound_score:hover .explain_sound{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .art_score:hover .explain_art{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .emotions_score:hover .explain_emotions{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .content_f_score:hover .explain_story{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .characters_f_score:hover .explain_subj_characters{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 .memory_score:hover .explain_memory{
-    display:flex;
+    transition-delay: 0.7s;
+    height: auto;
+    visibility: visible;
 }
 
 .review button {
@@ -464,6 +555,10 @@ td{
     border:rgb(211, 211, 211) solid 2px;
     padding:15px;
     border-radius: 5px;
+    transition    : all 0.2s ease-in-out; 
+      -o-transition       : all 0.2s ease-in-out;
+      -moz-transition     : all 0.2s ease-in-out;
+  -webkit-transition  : all 0.2s ease-in-out;
 }
 .review button:hover {
     cursor: pointer;

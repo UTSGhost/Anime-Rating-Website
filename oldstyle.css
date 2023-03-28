@@ -1,8 +1,6 @@
 /*
 Author: UTSGhost
 */
-
-/*Basic-----------------------------------------------------------------------------------------------------*/
 @font-face {
     font-family: 'Nunito';
     src: url('font/Nunito-VariableFont_wght.woff2') format('woff2'),
@@ -10,94 +8,97 @@ Author: UTSGhost
     font-weight: 200;
     font-style: normal;
 }
-:root {
-    --gray1:#353535;
-    --gray2:rgb(32, 32, 32);
-    --grayspecial: rgb(114, 114, 114);
-    --fontwhite:rgb(211, 211, 211);
-    --hoverwhite:rgb(180, 176, 165);
-    --link: rgb(169, 182, 255);
-    --font1:10px;
-    --font2:12px;
-    --font3:14px;
-    --font4:16px;
-    --font5:18px;
-    --font6:20px;
-    --font7:30px;
-    --font8:50px;
-    --fontspecial:20px;
-    --family:'Nunito', sans-serif;
-    font-size: var(--font5);
-    font-family: var(--family);
-    color: var(--fontwhite); 
-    font-weight: bold !important;
-    scroll-behavior: smooth;
-    text-align: center;
-
-}
-body, html {
-    background-color: var(--gray1);
-    width: 100vw;
+body {
     margin: 0;
-    padding:0;
+    padding: 0;
+}
+:root {
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(211, 211, 211); 
+    font-weight: bold;
+    
 }
 @media screen and (max-width: 1212px) {
     :root{
         overflow-x: scroll;
     }
+  }
+
+a {
+    color: rgb(169, 182, 255);
 }
 table {
-    background-color: var(--gray1);
+    background-color: rgb(53, 53, 53);
     border-spacing: 0px;
-    border-collapse: collapse;
-} 
-#mainTable {
-    width: 100%;
-    height:max-content;
-    margin-bottom: 0;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
-td{
-    position: relative;
+#mt{
+    height:fit-content;
+}
+.mid, h1 {
+    font-size: 50px;
+}
+.maintitle {
+    height:10vw;
+}
+.counterth {
+    width: 3% !important;
+}
+#counterbody {
+    border-right: 1px white solid;
+}
+table{
+    border-collapse: collapse;
+}
+#counterbody tr, .mainrow{
+    height: 264px;
+    border:1px solid white;
+}
+.red {
+    height: 76px;
+    width: 100%;
+    font-size: 13px;
+}
+.blue {
+    border-spacing: 10px;
+    font-size: 11px;
+    width: 100%;
+    border-right: 1px white solid;
+    height: 48px;
+}
+.green {
+    width:100%;
+    border-top: 1px rgb(114, 114, 114) solid;
+    height: 110px;
+}
+.green th{
+    font-size: 15px;
 }
 #foo tr td {
     padding: 0px;
 }
-h1 {
-    font-size: var(--font8);
-}
-a {
-    color:var(--link)
-}
-button {
-    font-family: var(--family);
-    font-weight: bold;
-    color:var(--fontwhite);
-    border:none;
-    background-color: var(--gray1);
-    font-size: var(--font5);
-}
-.malbutton {
-    color:var(--fontwhite);
-    text-decoration: none;
-}
-
-.malbutton:hover {
-    color:var(--hoverwhite);
-}
-/*Table----------------------------------------------------------------------------------------------------------------------*/
-.maintitle {
-    height:10vw;
-}
 .bar > th{
-    background-color: var(--gray2);
-    font-size: var(--fontspecial);
+    background-color: rgb(32, 32, 32);
+    font-size: 20px;
     height: 60px;
     padding: 0px;
 }
-.counterth {
-    width: 3%;
+.ratinglist{
+    text-align: left;
+}
+.asc{
+    width: 10px;
+}
+.desc{
+    width: 10px;
+    transform: rotate(180deg);
+}
+#meanscoreplace{
+    text-align: left;
+    font-size: 30px;
 }
 .season, .type{
     width: 11%;
@@ -123,77 +124,31 @@ button {
     width:11% !important;
     column-span: 1 !important;
 }
-#counterbody {
-    border-right: 1px white solid;
+#mainTable{
+    width:100vw;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: fit-content;
 }
-.mainrow{
-    height: 264px;
-    border:1px solid white;
-}
-.celltable, .red, .green, .blue{
+.celltable{
     width: 100%;
 }
-.green {
-    border-top: 1px var(--grayspecial) solid;
-    height: 110px;
-    font-size: var(--font4);
-}
-.red {
-    height: 76px;
-    font-size: var(--font3);
-    border-collapse: collapse;
-}
-.blue {
-    border-spacing: 10px;
-    font-size: var(--font2);
-    border-right: 1px white solid;
-    height: 48px;
-}
-.bluespecial {
-    border: none;
-}
-.ratinglist{
-    text-align: left;
-}
-#meanscoreplace{
-    font-size: var(--font7);
-}
 
 
-
-/*Reactive---------------------------------------------------------------------------------------------*/
-
-
-#myBtn {
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    background-color: var(--gray2); 
-    padding: 15px;
-    border-radius: 10px; 
-    transition: opacity 0.5s ease-out !important;
-    opacity: 0;
-}
-  
-#myBtn:hover {
-    background-color: var(--hoverwhite); 
-}
-
-#myBtn img {
-    height: 40px;
-}
+/*Dropdown*/
+/* Dropdown Button */
 .dropbtn {
-    background-color: var(--gray1);
-    color: var(--fontwhite); 
+    background-color: rgb(53, 53, 53);
+    color: rgb(211, 211, 211); 
     border: none;
     cursor: pointer;
     border-radius: 5px;
     width:135px;
     height:40px;
-    font-size: var(--font7);
+    font-size: 30px;
+    font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
   
 
@@ -209,14 +164,15 @@ button {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--gray2); 
+    background-color: rgb(32, 32, 32); 
     width: 135px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-size: var(--font1);
+    font-size: 10px;
 }
   
 .dropdown-content table {
-    background-color: var(--gray2);
+    background-color: rgb(32, 32, 32);
 }
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -228,31 +184,78 @@ button {
   
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    color:var(--hoverwhite);
-}
+    color:rgb(180, 176, 165);
+  }
   
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: var(--hoverwhite);}
+.dropdown-content a:hover {background-color: rgb(180, 176, 165);}
   
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-.asc{
-    width: 10px;
+#myBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(39, 39, 39); /* Set a background color */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    transition: opacity 0.5s ease-out !important;
+    opacity: 0;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(180, 176, 165); /* Add a dark-grey background on hover */
+  }
+
+  #myBtn img {
+    height: 40px;
+  }
+  html {
+    scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+    max-height:100vh !important;
+  }
+
+.malbutton {
+    color:rgb(211, 211, 211);
+    text-decoration: none;
 }
-.desc{
-    width: 10px;
-    transform: rotate(180deg);
+
+.malbutton:hover {
+    color:rgb(180, 176, 165);
 }
+
+.hoverrating{
+    display:none;
+    background-color: #353535;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    height:150px;
+}
+
+
+
 
 
 #info {
-    font-size: var(--font7);
+    font-size: 30px;
+    color:rgb(211, 211, 211);
+    background-color: #353535;
+    border:none;
+    font-family:'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
+
 #info:hover, .info:focus {
-    color:var(--hoverwhite);
+    color:rgb(180, 176, 165);
 }
+
 
 #infobox {
     display:none;
@@ -261,8 +264,8 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--gray2);
-    border: 2px solid var(--hoverwhite);
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(180, 176, 165);
     padding: 20px;
     width:1300px;
     height:auto;
@@ -270,11 +273,12 @@ button {
     word-wrap: break-word;
     overflow-wrap: break-word;
     justify-content:center;
-}
+  }
+
 .explain_all {
     display:block;
     position: absolute;
-    background-color: var(--gray2);
+    background-color: rgb(32, 32, 32);
     width:90%;
     height:0;
     z-index: 2;
@@ -283,7 +287,7 @@ button {
     word-wrap: break-word;
     overflow-wrap: break-word;
     min-height: 40px;
-    padding: 10px;
+    padding: 5%;
     min-width: 100px;
     left: 50%;
     top: 100%;
@@ -294,42 +298,61 @@ button {
     visibility: hidden;
 }
 .explain_aftertaste{
-    left: 30%;
+    left: 35%;
 }
-.hoverrating{
-    display:none;
-    background-color: var(--gray1);
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    height:150px;
+td{
+    position: relative;
 }
-.review button {
-    background-color: var(--gray1);
-    border:rgb(211, 211, 211) solid 2px;
-    padding:15px;
-    border-radius: 5px;
-    transition: all 0.2s ease-in-out; 
-    -o-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-}
-.review button:hover {
-    cursor: pointer;
-    background-color:rgb(32, 32, 32);
-    border:rgb(211, 211, 211) solid 3px;
+@media screen and (max-width: 1835px) {
+    .explain_aftertaste{
+        left: 15%;
+    }
 }
 
-.ratingbox {
-    width:86% !important;
-    height: auto;
-    font-size: var(--font4);
-    padding:15px !important;
-    text-align: left;
-    column-span: 6 !important;
+@media screen and (max-width: 1380px) {
+    #infobox {
+        font-size: 14px;
+        max-width: 80vw;
+        max-height:90vw;
+    }
 }
-
-/*hover----------------------------------------------------------------------------------------------------*/
-
+@media screen and (max-width: 900px) {
+    #infobox {
+        font-size: 10px;
+        max-width: 80vw;
+        max-height:90vw;
+    }
+}
+@media screen and (max-width: 610px) {
+    #infobox {
+        font-size: 7px;
+        max-width: 90vw;
+    }
+}
+@media screen and (max-width: 406px) {
+    #infobox {
+        display:none !important;
+    }
+}
+@media screen and (max-height: 717px) {
+    #infobox {
+        font-size: 14px;
+        max-width: 80vw;
+        max-height:90vw;
+    }
+}
+@media screen and (max-height: 560px) {
+    #infobox {
+        font-size: 10px;
+        max-width: 80vw;
+        max-height:90vw;
+    }
+}
+@media screen and (max-height: 370px) {
+    #infobox {
+        display:none !important;
+    }
+}
 .characters_score:hover .explain_obj_character{
     transition-delay: 0.7s;
     height:auto;
@@ -527,3 +550,33 @@ button {
     height: auto;
     visibility: visible;
 }
+
+.review button {
+    background-color: #353535;
+    color:rgb(211, 211, 211);
+    font-size: 17px;
+    border:rgb(211, 211, 211) solid 2px;
+    padding:15px;
+    border-radius: 5px;
+    transition    : all 0.2s ease-in-out; 
+      -o-transition       : all 0.2s ease-in-out;
+      -moz-transition     : all 0.2s ease-in-out;
+  -webkit-transition  : all 0.2s ease-in-out;
+}
+.review button:hover {
+    cursor: pointer;
+    background-color:rgb(32, 32, 32);
+    border:rgb(211, 211, 211) solid 3px;
+}
+
+.ratingbox {
+    width:86% !important;
+    height: auto;
+    font-size: 14px;
+    padding:15px !important;
+    text-align: left;
+    column-span: 6 !important;
+}
+
+
+

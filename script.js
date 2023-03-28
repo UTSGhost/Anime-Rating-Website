@@ -468,8 +468,8 @@ function showrating(id) {
     // Close this box
     restRow.style.display = "table-row";
     ratingBox.style.display = "none";
-    ratingBoxCol1.setAttribute("colspan", "7");
-    ratingBoxCol2.setAttribute("colspan", "0");
+    //ratingBoxCol1.setAttribute("colspan", "7");
+    //ratingBoxCol2.setAttribute("colspan", "0");
     currentOpenBox = null;
     currentOpenID = null;
   } else {
@@ -482,15 +482,15 @@ function showrating(id) {
         currentRestRow.style.display = "table-row";
       }
       currentOpenBox.style.display = "none";
-      currentOpenBoxCol1.setAttribute("colspan", "7");
-      currentOpenBoxCol2.setAttribute("colspan", "0");
+      //currentOpenBoxCol1.setAttribute("colspan", "7");
+      //currentOpenBoxCol2.setAttribute("colspan", "0");
     }
 
     // Open this box
     restRow.style.display = "none";
     ratingBox.style.display = "table-row";
-    ratingBoxCol1.setAttribute("colspan", "6");
-    ratingBoxCol2.setAttribute("colspan", "1");
+    //ratingBoxCol1.setAttribute("colspan", "6");
+    //ratingBoxCol2.setAttribute("colspan", "1");
     currentOpenBox = ratingBox;
     currentOpenID = id;
   }

@@ -52,7 +52,7 @@ table {
     height:10vw;
 }
 .counterth {
-    width: 3%;
+    width: 3% !important;
 }
 #counterbody {
     border-right: 1px white solid;
@@ -133,6 +133,7 @@ table{
 }
 .mal_rating{
     width:11% !important;
+    column-span: 1 !important;
 }
 #mainTable{
     width:100vw;
@@ -576,11 +577,12 @@ td{
 }
 
 .ratingbox {
-    width:86%;
+    width:86% !important;
     height: auto;
     font-size: 14px;
     padding:15px !important;
     text-align: left;
+    column-span: 6 !important;
 }
 
 

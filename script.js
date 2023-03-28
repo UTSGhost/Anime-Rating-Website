@@ -460,8 +460,8 @@ var currentOpenID = null;
 function showrating(id) {
   var ratingBox = document.getElementById("rating" + id);
   var restRow = document.getElementById(id);
-  var ratingBoxCol1 = ratingBox.getElementsByTagName("td")[0];
-  var ratingBoxCol2 = ratingBox.getElementsByTagName("td")[1];
+  //var ratingBoxCol1 = ratingBox.getElementsByTagName("td")[0];
+  //var ratingBoxCol2 = ratingBox.getElementsByTagName("td")[1];
 
   // Check if this box is already open
   if (currentOpenID === id) {
@@ -475,8 +475,8 @@ function showrating(id) {
   } else {
     // Close currently open box (if there is one)
     if (currentOpenBox !== null) {
-      var currentOpenBoxCol1 = currentOpenBox.getElementsByTagName("td")[0];
-      var currentOpenBoxCol2 = currentOpenBox.getElementsByTagName("td")[1];
+      //var currentOpenBoxCol1 = currentOpenBox.getElementsByTagName("td")[0];
+      //var currentOpenBoxCol2 = currentOpenBox.getElementsByTagName("td")[1];
       var currentRestRow = document.getElementById(currentOpenID);
       if (currentRestRow) {
         currentRestRow.style.display = "table-row";
@@ -489,8 +489,8 @@ function showrating(id) {
     // Open this box
     restRow.style.display = "none";
     ratingBox.style.display = "table-row";
-    ratingBoxCol1.setAttribute("colspan", "6");
-    ratingBoxCol2.setAttribute("colspan", "1");
+    //ratingBoxCol1.setAttribute("colspan", "6");
+    //ratingBoxCol2.setAttribute("colspan", "1");
     currentOpenBox = ratingBox;
     currentOpenID = id;
   }

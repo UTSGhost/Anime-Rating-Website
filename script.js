@@ -489,8 +489,8 @@ function showrating(id) {
     // Open this box
     restRow.style.display = "none";
     ratingBox.style.display = "table-row";
-    //ratingBoxCol1.setAttribute("colspan", "6");
-    //ratingBoxCol2.setAttribute("colspan", "1");
+    ratingBoxCol1.setAttribute("colspan", "6");
+    ratingBoxCol2.setAttribute("colspan", "1");
     currentOpenBox = ratingBox;
     currentOpenID = id;
   }

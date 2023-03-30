@@ -894,9 +894,9 @@
             "climax": 3
           },
           "story": {
-            "satisfying_ending": 10,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 7
+            "satisfying_ending": 7,
+            "no_unnecessary_scenes": 5,
+            "enjoyable_content": 5
           },
           "characters": {
             "likeable": 9,
@@ -1241,9 +1241,9 @@
             "enjoyable_content": 3
           },
           "characters": {
-            "likeable": 9,
+            "likeable": 7,
             "waifus": 2,
-            "relationships": 0
+            "relationships": 2
           },
           "memory": {
             "aftertaste": 2,
@@ -1495,7 +1495,7 @@
             "protagonist": 5,
             "antagonist": 0,
             "side_characters": 5,
-            "realistic": 0
+            "realistic": 3
           },
           "writing": {
             "ending": 5,
@@ -1526,7 +1526,7 @@
             "enjoyable_content": 2
           },
           "characters": {
-            "likeable": 10,
+            "likeable": 7,
             "waifus": 2,
             "relationships": 0
           },
@@ -1663,10 +1663,10 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 5,
+            "protagonist": 3,
             "antagonist": 0,
             "side_characters": 6,
-            "realistic": 1
+            "realistic": 4
           },
           "writing": {
             "ending": 6,
@@ -1697,9 +1697,9 @@
             "enjoyable_content": 6
           },
           "characters": {
-            "likeable": 9,
+            "likeable": 7,
             "waifus": 2,
-            "relationships": 0
+            "relationships": 2
           },
           "memory": {
             "aftertaste": 4,
@@ -2039,9 +2039,9 @@
             "enjoyable_content": 3
           },
           "characters": {
-            "likeable": 9,
+            "likeable": 6,
             "waifus": 2,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
             "aftertaste": 3,
@@ -2065,7 +2065,7 @@
             "protagonist": 5,
             "antagonist": 0,
             "side_characters": 5,
-            "realistic": 1
+            "realistic": 2
           },
           "writing": {
             "ending": 6,
@@ -2096,9 +2096,9 @@
             "enjoyable_content": 3
           },
           "characters": {
-            "likeable": 10,
+            "likeable": 6,
             "waifus": 2,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
             "aftertaste": 3,
@@ -4171,10 +4171,10 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 7,
+            "protagonist": 5,
             "antagonist": 0,
-            "side_characters": 5,
-            "realistic": 4
+            "side_characters": 4,
+            "realistic": 2
           },
           "writing": {
             "ending": 5,
@@ -4195,8 +4195,8 @@
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 6,
-            "vibe": 3,
+            "comedic_sad_thrilling": 4,
+            "vibe": 4,
             "climax": 5
           },
           "story": {
@@ -4207,7 +4207,7 @@
           "characters": {
             "likeable": 3,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
             "aftertaste": 2,
@@ -4901,6 +4901,63 @@
         },
         "explain": "No review written yet"
       }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/3/60475.jpg",
+      "name": "Ryuugajou Nanana no Maizoukin",
+      "alt_name": "Nanana's Buried Treasure",
+      "id": 21561,
+      "season": "Spring 2014",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4,
+            "antagonist": 3,
+            "side_characters": 4,
+            "realistic": 1
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 2,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 3,
+            "voiceacting": 0,
+            "op_ed": 4,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 4,
+            "climax": 2
+          },
+          "story": {
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 2,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 1
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 5,
+            "nostalgia": 1
+          }
+        }
+      },
+      "explain": "No review written yet"
     },
     {
       "img": "https://cdn.myanimelist.net/images/anime/11/65185.jpg",
@@ -8209,114 +8266,114 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1974/98158.jpg",
       "name": "Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly",
-      "alt_name": "",
+      "alt_name": "Fate/stay night: Heaven's Feel - II. Lost Butterfly",
       "id": 33049,
-      "season": "",
+      "season": "Winter 2019",
       "type": "Movie",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "protagonist": 4,
+            "antagonist": 5,
+            "side_characters": 3,
+            "realistic": 2
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 5,
+            "logical": 4,
+            "plot": 4
           },
           "music_sound": {
-            "ost_bgm": 0,
+            "ost_bgm": 3,
             "voiceacting": 0,
-            "op_ed": 0,
-            "soundeffects": 0
+            "op_ed": 2,
+            "soundeffects": 2
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 8,
+            "character_design": 2,
+            "world_building": 2
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 5,
+            "vibe": 4,
+            "climax": 4
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 6
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 4,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 2,
+            "addictive": 3,
+            "nostalgia": 4
           }
         },
         "explain": "No review written yet"
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1142/112957.jpg",
       "name": "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
-      "alt_name": "",
+      "alt_name": "Fate/stay night: Heaven's Feel - III. Spring Song",
       "id": 33050,
-      "season": "",
+      "season": "Summer 2020",
       "type": "Movie",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "protagonist": 4,
+            "antagonist": 5,
+            "side_characters": 4,
+            "realistic": 1
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 6,
+            "logical": 5,
+            "plot": 4
           },
           "music_sound": {
-            "ost_bgm": 0,
+            "ost_bgm": 5,
             "voiceacting": 0,
-            "op_ed": 0,
+            "op_ed": 3,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 8,
+            "character_design": 2,
+            "world_building": 2
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 6,
+            "vibe": 5,
+            "climax": 5
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 4,
+            "enjoyable_content": 4
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 4,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 3,
+            "addictive": 3,
+            "nostalgia": 4
           }
         },
         "explain": "No review written yet"
@@ -11572,57 +11629,57 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1483/107061.jpg",
       "name": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta...",
-      "alt_name": "",
+      "alt_name": "My Next Life as a Villainess: All Routes Lead to Doom!",
       "id": 38555,
-      "season": "",
+      "season": "Spring 2020",
       "type": "TV",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 7,
             "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "side_characters": 6,
+            "realistic": 2
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 5,
+            "logical": 4,
+            "plot": 5
           },
           "music_sound": {
-            "ost_bgm": 0,
-            "voiceacting": 0,
-            "op_ed": 0,
+            "ost_bgm": 1,
+            "voiceacting": 1,
+            "op_ed": 3,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 1
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 6,
+            "vibe": 5,
+            "climax": 4
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 4,
+            "enjoyable_content": 6
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 6,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 4
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 4,
+            "addictive": 2,
+            "nostalgia": 2
           }
         },
         "explain": "No review written yet"
@@ -13054,57 +13111,57 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1802/108501.jpg",
       "name": "Majo no Tabitabi",
-      "alt_name": "",
+      "alt_name": "Wandering Witch: The Journey of Elaina",
       "id": 40571,
-      "season": "",
+      "season": "Fall 2020",
       "type": "TV",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "protagonist": 5,
+            "antagonist": 3,
+            "side_characters": 3,
+            "realistic": 5
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 2,
+            "logical": 6,
+            "plot": 7
           },
           "music_sound": {
             "ost_bgm": 0,
             "voiceacting": 0,
-            "op_ed": 0,
+            "op_ed": 7,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 2,
+            "world_building": 4
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 4,
+            "vibe": 7,
+            "climax": 3
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 5,
+            "enjoyable_content": 5
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 4,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 2
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 4,
+            "addictive": 3,
+            "nostalgia": 2
           }
         },
         "explain": "No review written yet"
@@ -13738,57 +13795,57 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1613/108722.jpg",
       "name": "Tonikaku Kawaii",
-      "alt_name": "",
+      "alt_name": "TONIKAWA: Over The Moon For You",
       "id": 41389,
-      "season": "",
+      "season": "Fall 2020",
       "type": "TV",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 6,
             "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "side_characters": 5,
+            "realistic": 2
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 3,
+            "logical": 6,
+            "plot": 4
           },
           "music_sound": {
-            "ost_bgm": 0,
+            "ost_bgm": 1,
             "voiceacting": 0,
-            "op_ed": 0,
+            "op_ed": 4,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 1,
+            "world_building": 2
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 6,
+            "vibe": 5,
+            "climax": 3
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 5,
+            "enjoyable_content": 5
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 5,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 5
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 4,
+            "addictive": 3,
+            "nostalgia": 2
           }
         },
         "explain": "No review written yet"
@@ -15058,10 +15115,10 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 7,
+            "protagonist": 6,
             "antagonist": 0,
-            "side_characters": 7,
-            "realistic": 5
+            "side_characters": 6,
+            "realistic": 4
           },
           "writing": {
             "ending": 8,
@@ -15069,9 +15126,9 @@
             "plot": 4
           },
           "music_sound": {
-            "ost_bgm": 3,
+            "ost_bgm": 2,
             "voiceacting": 1,
-            "op_ed": 5,
+            "op_ed": 4,
             "soundeffects": 0
           },
           "animation_art": {
@@ -15082,24 +15139,24 @@
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 5,
-            "vibe": 3,
-            "climax": 6
+            "comedic_sad_thrilling": 4,
+            "vibe": 5,
+            "climax": 7
           },
           "story": {
-            "satisfying_ending": 6,
+            "satisfying_ending": 7,
             "no_unnecessary_scenes": 3,
             "enjoyable_content": 5
           },
           "characters": {
             "likeable": 5,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
             "aftertaste": 4,
             "addictive": 3,
-            "nostalgia": 3
+            "nostalgia": 2
           }
         },
         "explain": "No review written yet"
@@ -15562,57 +15619,57 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1765/122768.jpg",
       "name": "Tonikaku Kawaii: SNS",
-      "alt_name": "",
+      "alt_name": "TONIKAWA: Over The Moon For You - SNS",
       "id": 44931,
-      "season": "",
+      "season": "Summer 2021",
       "type": "OVA",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 6,
             "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "side_characters": 4,
+            "realistic": 1
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 3,
+            "logical": 3,
+            "plot": 3
           },
           "music_sound": {
             "ost_bgm": 0,
             "voiceacting": 0,
-            "op_ed": 0,
+            "op_ed": 4,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 3
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 5,
+            "vibe": 4,
+            "climax": 3
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 4
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 5,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 5
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 3,
+            "addictive": 2,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"
@@ -15847,56 +15904,56 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1637/115052.jpg",
       "name": "Vivy: Fluorite Eye's Song",
-      "alt_name": "",
+      "alt_name": "Vivy -Fluorite Eye's Song-",
       "id": 46095,
-      "season": "",
+      "season": "Spring 2021",
       "type": "TV",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "protagonist": 4,
+            "antagonist": 4,
+            "side_characters": 3,
+            "realistic": 2
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 7,
+            "logical": 4,
+            "plot": 5
           },
           "music_sound": {
-            "ost_bgm": 0,
+            "ost_bgm": 2,
             "voiceacting": 0,
-            "op_ed": 0,
-            "soundeffects": 0
+            "op_ed": 5,
+            "soundeffects": 2
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 6,
+            "character_design": 3,
+            "world_building": 2
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 7,
+            "vibe": 6,
+            "climax": 3
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 4
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 4,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
+            "aftertaste": 5,
+            "addictive": 5,
             "nostalgia": 0
           }
         },
@@ -16882,15 +16939,15 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 5,
-            "antagonist": 5,
-            "side_characters": 5,
+            "protagonist": 4,
+            "antagonist": 4,
+            "side_characters": 4,
             "realistic": 2
           },
           "writing": {
-            "ending": 3,
-            "logical": 4,
-            "plot": 5
+            "ending": 4,
+            "logical": 2,
+            "plot": 4
           },
           "music_sound": {
             "ost_bgm": 0,
@@ -16921,8 +16978,8 @@
             "relationships": 2
           },
           "memory": {
-            "addictive": 7,
-            "nostalgia": 0,
+            "addictive": 5,
+            "nostalgia": 1,
             "aftertaste": 1
           }
         },
@@ -17999,9 +18056,9 @@
             "enjoyable_content": 4
           },
           "characters": {
-            "likeable": 3,
+            "likeable": 5,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 5
           },
           "memory": {
             "addictive": 2,

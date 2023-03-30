@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1240/133638.jpg",
-            "name": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
-            "alt_name": "The Angel Next Door Spoils Me Rotten",
-            "id": 50739,
-            "season": "Winter 2023",
+            "img": "https://cdn.myanimelist.net/images/anime/3/60475.jpg",
+            "name": "Ryuugajou Nanana no Maizoukin",
+            "alt_name": "Nanana's Buried Treasure",
+            "id": 21561,
+            "season": "Spring 2014",
             "type": "TV",
             "rating": {
                 "objective": {

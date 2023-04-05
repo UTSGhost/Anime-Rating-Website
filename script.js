@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/3/60475.jpg",
-            "name": "Ryuugajou Nanana no Maizoukin",
-            "alt_name": "Nanana's Buried Treasure",
-            "id": 21561,
-            "season": "Spring 2014",
+            "img": "https://cdn.myanimelist.net/images/anime/2/62655.jpg",
+            "name": "Rokujouma no Shinryakusha!?",
+            "alt_name": "Invaders of the Rokujyoma!?",
+            "id": 22865,
+            "season": "Summer 2014",
             "type": "TV",
             "rating": {
                 "objective": {
@@ -83,9 +83,9 @@ $.getJSON('rating.json', function(data) {
                         "addictive": 0,
                         "nostalgia": 0
                     }
-                }
-              },
-              "explain": "No review written yet"
+                },
+                "explain": "No review written yet"
+              }
         };
         for(let i=0;i<arr.length;i++){
             if(newanime.id<arr[i].id){
@@ -100,7 +100,7 @@ $.getJSON('rating.json', function(data) {
     };
 
 
-    newsort()
+    //newsort()
 
 
 
@@ -460,7 +460,6 @@ var currentOpenID = [];
 function showrating(id) {
   var ratingBox = document.getElementById("rating" + id);
   var restRow = document.getElementById(id);
-
   // Check if this box is already open
   var index = currentOpenID.indexOf(id);
   if (index > -1) {

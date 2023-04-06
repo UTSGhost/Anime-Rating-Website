@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/2/62655.jpg",
-            "name": "Rokujouma no Shinryakusha!?",
-            "alt_name": "Invaders of the Rokujyoma!?",
-            "id": 22865,
-            "season": "Summer 2014",
+            "img": "https://cdn.myanimelist.net/images/anime/6/76211.jpg",
+            "name": "Taimadou Gakuen 35 Shiken Shoutai",
+            "alt_name": "AntiMagic Academy 35th Test Platoon",
+            "id": 24133,
+            "season": "Fall 2015",
             "type": "TV",
             "rating": {
                 "objective": {
@@ -100,7 +100,7 @@ $.getJSON('rating.json', function(data) {
     };
 
 
-    //newsort()
+    newsort()
 
 
 

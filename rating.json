@@ -5587,6 +5587,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/6/76211.jpg",
+      "name": "Taimadou Gakuen 35 Shiken Shoutai",
+      "alt_name": "AntiMagic Academy 35th Test Platoon",
+      "id": 24133,
+      "season": "Fall 2015",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3,
+            "antagonist": 3,
+            "side_characters": 3,
+            "realistic": 1
+          },
+          "writing": {
+            "ending": 2,
+            "logical": 2,
+            "plot": 2
+          },
+          "music_sound": {
+            "ost_bgm": 2,
+            "voiceacting": 1,
+            "op_ed": 3,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 3,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 3,
+            "climax": 3
+          },
+          "story": {
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 2,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 1,
+            "addictive": 4,
+            "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/9/75466.jpg",
       "name": "Date A Live Movie: Mayuri Judgment",
       "alt_name": "Date A Live Movie: Mayuri Judgment",

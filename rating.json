@@ -7297,57 +7297,57 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/10/77957.jpg",
       "name": "Boku dake ga Inai Machi",
-      "alt_name": "",
+      "alt_name": "ERASED",
       "id": 31043,
-      "season": "",
+      "season": "Winter 2016",
       "type": "TV",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
+            "protagonist": 2,
+            "antagonist": 3,
+            "side_characters": 1,
             "realistic": 0
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": -2,
+            "logical": 1,
+            "plot": 3
           },
           "music_sound": {
             "ost_bgm": 0,
             "voiceacting": 0,
-            "op_ed": 0,
+            "op_ed": 4,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
+            "fight_scenes_general_smooth_movement": 2,
             "character_design": 0,
-            "world_building": 0
+            "world_building": 3
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 1,
+            "vibe": 3,
+            "climax": 2
           },
           "story": {
-            "satisfying_ending": 0,
+            "satisfying_ending": -2,
             "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "enjoyable_content": 1
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 1,
             "waifus": 0,
-            "relationships": 0
+            "relationships": -2
           },
           "memory": {
-            "aftertaste": 0,
+            "aftertaste": -2,
             "addictive": 0,
-            "nostalgia": 0
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"
@@ -7477,51 +7477,51 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 1,
             "antagonist": 0,
-            "side_characters": 0,
+            "side_characters": 1,
             "realistic": 0
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 2,
+            "logical": 1,
+            "plot": 1
           },
           "music_sound": {
             "ost_bgm": 0,
             "voiceacting": 0,
-            "op_ed": 0,
+            "op_ed": 3,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 1,
+            "character_design": 2,
+            "world_building": 2
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 1,
+            "vibe": 1,
+            "climax": 2
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 1,
+            "enjoyable_content": 2
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 2,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 2
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
+            "aftertaste": 2,
+            "addictive": 3,
             "nostalgia": 0
           }
         },
-        "explain": "No review written yet"
+        "explain": "<p>'They call it Hundred because you've seen this show hundreds of times already.' - top MAL review from LeaderTGW. I love watching each and every sci-fi harem ecchi action school anime. They're all the same. Asterisk, Chivalry, IS, or now this: Hundred. No idea why I'm forcing myself to write about this. But here we go:</p><p>I really do not want to write too much about it and I also forgot basically everything that happened, because nothing was worth remembering. The characters are plain, and even below average in the bottom league. The only good thing about Hayato besides his name is the fact that he actually decides on one girl. Emile is also fairly cute, but all the others were just plain and dumb and aggresive and thirty for Hayato for no real reason (well that's kinda just part of this genre, so I'll let that pass). The story itself isn't worth mentioning, so I wont (quality review for quality anime). Basically it's about... I have no idea. The opening was rather... special, not bad but not great either. And the animation budget was also rather on the short side this time.</p><p> I was mostly not amused by this, but I do remember 1 thing. In the first episode, Hayato transfered to the new school, battling with the Queen of the school. I knew instantly, what will happen. Either he wins, or he loses but should've won. Regardless of what happens, the queen would fall in love with him for no reason and he'll be the star of the school (or rarely the opposite). After that, the high class guys all keep an eye on mr. Irregular. Yeah that's all I remembered. I've seen such things way too often already and I'm still looking forward to watch more. For no explainable reason, I also binged this in one day. Don't ask me why, I probably couldn't procastinate this trash any longer, other than Kanojo, Okarishimasu. I don't have anything other to say. It was not worth my time.</p><p> Actually, it was worth my time, because my life goal is obviously going to be to watch all those anime genres. I just love watching the bottom of the trash. But it's not worth your time, if you're not like me, which I highly doubt, so my advise: avoid this at all cost.</p>"
       }
     },
     {
@@ -8266,56 +8266,56 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/2/86468.jpg",
       "name": "Eromanga-sensei",
-      "alt_name": "",
+      "alt_name": "Eromanga Sensei",
       "id": 32901,
-      "season": "",
+      "season": "Spring 2017",
       "type": "TV",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": -1,
             "antagonist": 0,
-            "side_characters": 0,
+            "side_characters": -1,
             "realistic": 0
           },
           "writing": {
-            "ending": 0,
+            "ending": 1,
             "logical": 0,
-            "plot": 0
+            "plot": 1
           },
           "music_sound": {
             "ost_bgm": 0,
-            "voiceacting": 0,
-            "op_ed": 0,
+            "voiceacting": 2,
+            "op_ed": 4,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 3,
+            "world_building": 1
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
+            "comedic_sad_thrilling": -1,
             "vibe": 0,
             "climax": 0
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
+            "satisfying_ending": -1,
+            "no_unnecessary_scenes": -1,
             "enjoyable_content": 0
           },
           "characters": {
-            "likeable": 0,
+            "likeable": -2,
             "waifus": 0,
             "relationships": 0
           },
           "memory": {
             "aftertaste": 0,
-            "addictive": 0,
+            "addictive": 1,
             "nostalgia": 0
           }
         },
@@ -9976,57 +9976,57 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1614/90408.jpg",
       "name": "Darling in the FranXX",
-      "alt_name": "",
+      "alt_name": "Darling in the FranXX",
       "id": 35849,
-      "season": "",
+      "season": "Winter 2018",
       "type": "TV",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 1,
             "antagonist": 0,
-            "side_characters": 0,
+            "side_characters": 1,
             "realistic": 0
           },
           "writing": {
             "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "logical": 1,
+            "plot": 2
           },
           "music_sound": {
             "ost_bgm": 0,
-            "voiceacting": 0,
-            "op_ed": 0,
+            "voiceacting": 1,
+            "op_ed": 4,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 3
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": -1,
+            "vibe": 2,
+            "climax": 2
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
+            "satisfying_ending": -1,
+            "no_unnecessary_scenes": -1,
             "enjoyable_content": 0
           },
           "characters": {
-            "likeable": 0,
+            "likeable": -1,
             "waifus": 0,
             "relationships": 0
           },
           "memory": {
             "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "addictive": 2,
+            "nostalgia": 2
           }
         },
         "explain": "No review written yet"
@@ -10432,40 +10432,40 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1582/96343.jpg",
       "name": "Eromanga-sensei OVA",
-      "alt_name": "",
+      "alt_name": "Eromanga Sensei OVA",
       "id": 36792,
-      "season": "",
+      "season": "Winter 2019",
       "type": "OVA",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": -1,
             "antagonist": 0,
-            "side_characters": 0,
+            "side_characters": -1,
             "realistic": 0
           },
           "writing": {
             "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "logical": 1,
+            "plot": 2
           },
           "music_sound": {
             "ost_bgm": 0,
-            "voiceacting": 0,
-            "op_ed": 0,
+            "voiceacting": 2,
+            "op_ed": 4,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
             "world_building": 0
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
+            "comedic_sad_thrilling": 1,
             "vibe": 0,
             "climax": 0
           },
@@ -10475,7 +10475,7 @@
             "enjoyable_content": 0
           },
           "characters": {
-            "likeable": 0,
+            "likeable": -1,
             "waifus": 0,
             "relationships": 0
           },
@@ -12427,16 +12427,16 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1430/102439.jpg",
       "name": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?",
-      "alt_name": "",
+      "alt_name": "Hensuki: Are you willing to Fall in Love with a Pervert, as long as she's a Cutie?",
       "id": 39326,
-      "season": "",
+      "season": "Summer 2019",
       "type": "TV",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 1,
             "antagonist": 0,
             "side_characters": 0,
             "realistic": 0
@@ -12444,23 +12444,23 @@
           "writing": {
             "ending": 0,
             "logical": 0,
-            "plot": 0
+            "plot": 1
           },
           "music_sound": {
             "ost_bgm": 0,
-            "voiceacting": 0,
-            "op_ed": 0,
+            "voiceacting": 1,
+            "op_ed": 3,
             "soundeffects": 0
           },
           "animation_art": {
             "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "character_design": 1,
+            "world_building": 1
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
+            "comedic_sad_thrilling": 1,
             "vibe": 0,
             "climax": 0
           },
@@ -12476,8 +12476,8 @@
           },
           "memory": {
             "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "addictive": 1,
+            "nostalgia": 2
           }
         },
         "explain": "No review written yet"
@@ -14536,57 +14536,57 @@
       }
     },
     {
-      "img": "",
+      "img": "https://cdn.myanimelist.net/images/anime/1396/109465.jpg",
       "name": "Kamisama ni Natta Hi",
-      "alt_name": "",
+      "alt_name": "The Day I Became a God",
       "id": 41930,
-      "season": "",
+      "season": "Fall 2020",
       "type": "TV",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 2,
             "antagonist": 0,
             "side_characters": 0,
             "realistic": 0
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
+            "ending": -1,
+            "logical": -1,
             "plot": 0
           },
           "music_sound": {
             "ost_bgm": 0,
             "voiceacting": 0,
-            "op_ed": 0,
+            "op_ed": 3,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 1
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
+            "comedic_sad_thrilling": 1,
             "vibe": 0,
-            "climax": 0
+            "climax": 2
           },
           "story": {
-            "satisfying_ending": 0,
+            "satisfying_ending": -1,
             "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "enjoyable_content": 2
           },
           "characters": {
-            "likeable": 0,
+            "likeable": -1,
             "waifus": 0,
             "relationships": 0
           },
           "memory": {
             "aftertaste": 0,
             "addictive": 0,
-            "nostalgia": 0
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"

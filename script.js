@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/6/76211.jpg",
-            "name": "Taimadou Gakuen 35 Shiken Shoutai",
-            "alt_name": "AntiMagic Academy 35th Test Platoon",
-            "id": 24133,
-            "season": "Fall 2015",
+            "img": "https://cdn.myanimelist.net/images/anime/9/84266.jpg",
+            "name": "Renai Boukun",
+            "alt_name": "Love Tyrant",
+            "id": 32262,
+            "season": "Spring 2017",
             "type": "TV",
             "rating": {
                 "objective": {

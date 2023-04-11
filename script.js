@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/9/84266.jpg",
-            "name": "Renai Boukun",
-            "alt_name": "Love Tyrant",
-            "id": 32262,
-            "season": "Spring 2017",
+            "img": "https://cdn.myanimelist.net/images/anime/10/53235.jpg",
+            "name": "Ore no Nounai Sentakushi ga, Gakuen Love Comedy wo Zenryoku de Jama Shiteiru",
+            "alt_name": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
+            "id": 19221,
+            "season": "Fall 2013",
             "type": "TV",
             "rating": {
                 "objective": {

@@ -4708,7 +4708,7 @@
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 6,
+            "comedic_sad_thrilling": 7,
             "vibe": 4,
             "climax": 3
           },
@@ -4724,7 +4724,7 @@
           },
           "memory": {
             "aftertaste": 1,
-            "addictive": 5,
+            "addictive": 6,
             "nostalgia": 3
           }
         },

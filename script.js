@@ -276,8 +276,11 @@ function sort(ascending, category) {
   const rows = tbody.getElementsByClassName("mainrow");
 
   const sortFn = (a, b) => {
+    
     const aVal = getSortValue(a, category);
     const bVal = getSortValue(b, category);
+
+    console.log(category)
   
     if (typeof aVal === 'string' && typeof bVal === 'string') {
       return ascending ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
@@ -308,6 +311,7 @@ function getSortValue(row, category) {
   if (value === "") {
     return ""; // Return empty string if value is empty
   }
+ 
 
   if (
     [
@@ -350,7 +354,10 @@ function getSortValue(row, category) {
   if (!isNaN(num)) {
     return num;
   }
-
+  if (category == "ratingbox"){
+    value = value.length
+  }
+  console.log(value)
   return value;
 }
 

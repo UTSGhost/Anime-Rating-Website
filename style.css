@@ -308,7 +308,7 @@ button {
 }
 .review button {
     background-color: var(--gray1);
-    border:rgb(211, 211, 211) solid 2px;
+    border:var(--fontwhite) solid 2px;
     padding:15px;
     border-radius: 5px;
     transition: all 0.2s ease-in-out; 
@@ -318,8 +318,8 @@ button {
 }
 .review button:hover {
     cursor: pointer;
-    background-color:rgb(32, 32, 32);
-    border:rgb(211, 211, 211) solid 3px;
+    background-color:var(--gray2);
+    border:var(--fontwhite) solid 3px;
 }
 
 .ratingbox {
@@ -329,6 +329,23 @@ button {
     padding:15px !important;
     text-align: left;
     column-span: 6 !important;
+}
+
+.spoiler {
+    background-color: var(--gray2);
+    color: var(--gray2);
+    transition: all 0.2s ease-in-out; 
+    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+.spoiler::selection {
+    background-color: var(--gray2);
+    color: var(--gray2);
+}
+.spoiler:hover {
+    color: var(--fontwhite);
+    transition-delay: 0.3s;
 }
 
 /*hover----------------------------------------------------------------------------------------------------*/

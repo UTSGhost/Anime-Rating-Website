@@ -347,6 +347,11 @@ button {
     color: var(--fontwhite);
     transition-delay: 0.3s;
 }
+.spoiler:hover::selection {
+    color: var(--fontwhite);
+    background-color: #005092;
+    transition-delay: 0.3s;
+}
 
 /*hover----------------------------------------------------------------------------------------------------*/
 

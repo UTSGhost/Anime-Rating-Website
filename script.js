@@ -455,6 +455,7 @@ function waitforload(){
   else{
     setTimeout(function() {
       waitforload();
+      sort(false, 'mal_rating');
       //console.log("wait")
     }, 1);
   }

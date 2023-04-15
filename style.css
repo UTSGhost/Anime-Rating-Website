@@ -255,6 +255,7 @@ button {
 }
 #info:hover, .info:focus {
     color:var(--hoverwhite);
+    cursor: pointer;
 }
 
 #infobox {

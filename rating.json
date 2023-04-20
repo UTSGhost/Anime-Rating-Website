@@ -14422,6 +14422,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1782/128859.jpg",
+      "name": "Itai no wa Iya nanode Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2",
+      "alt_name": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense. Season 2",
+      "id": 41514,
+      "season": "Winter 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4,
+            "antagonist": 2,
+            "side_characters": 3,
+            "realistic": 2
+          },
+          "writing": {
+            "ending": 4,
+            "logical": 2,
+            "plot": 4
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 1,
+            "op_ed": 7,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 1.4,
+            "character_design": 2,
+            "world_building": 4
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 2.9,
+            "vibe": 3,
+            "climax": 5.3
+          },
+          "story": {
+            "satisfying_ending": 6,
+            "no_unnecessary_scenes": 2.2,
+            "enjoyable_content": 2
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 1.5,
+            "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1301/110433.jpg",
       "name": "Munou na Nana",
       "alt_name": "Talentless Nana",
@@ -18523,6 +18580,63 @@
           }
         },
         "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1533/135326.jpg",
+      "name": "Idol",
+      "alt_name": "Idol",
+      "id": 55016,
+      "season": "Spring 2023",
+      "type": "Music",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 3,
+            "side_characters": 5,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 3,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 2,
+            "op_ed": 7,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 5,
+            "character_design": 5,
+            "world_building": 0
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 6,
+            "climax": 6
+          },
+          "story": {
+            "satisfying_ending": 0,
+            "no_unnecessary_scenes": 2,
+            "enjoyable_content": 5
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 5,
+            "addictive": 5,
+            "nostalgia": 0
+          }
+        },
+        "explain": "Note that this is a music video, so my ratings either are based on ep1, ep2-11 or from the MV."
       }
     }
   ]

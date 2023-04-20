@@ -31,12 +31,12 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/7/71769.jpg",
-            "name": "Seiken Tsukai no World Break",
-            "alt_name": "World Break: Aria of Curse for a Holy Swordsman",
-            "id": 22663,
-            "season": "Winter 2015",
-            "type": "TV",
+            "img": "https://cdn.myanimelist.net/images/anime/1533/135326.jpg",
+            "name": "Idol",
+            "alt_name": "Idol",
+            "id": 55016,
+            "season": "Spring 2023",
+            "type": "Music",
             "rating": {
                 "objective": {
                     "characters": {

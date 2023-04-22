@@ -8117,7 +8117,7 @@
           "music_sound": {
             "ost_bgm": 2,
             "voiceacting": 1,
-            "op_ed": 5,
+            "op_ed": 5.3,
             "soundeffects": 0
           },
           "animation_art": {
@@ -14986,6 +14986,63 @@
             "aftertaste": 3,
             "addictive": 2,
             "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
+      "name": "Cyberpunk: Edgerunners",
+      "alt_name": "Cyberpunk: Edgerunners",
+      "id": 42310,
+      "season": "Fall 2022",
+      "type": "ONA",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 2,
+            "antagonist": 2,
+            "side_characters": 3,
+            "realistic": 1
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 1,
+            "plot": 5
+          },
+          "music_sound": {
+            "ost_bgm": 2,
+            "voiceacting": 0,
+            "op_ed": 3.3,
+            "soundeffects": 2
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 5,
+            "character_design": 2,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 3,
+            "climax": 2.7
+          },
+          "story": {
+            "satisfying_ending": 1,
+            "no_unnecessary_scenes": 1.7,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 1,
+            "waifus": 0,
+            "relationships": 1
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 1,
+            "nostalgia": 0
           }
         },
         "explain": "No review written yet"

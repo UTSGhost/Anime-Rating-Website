@@ -31,12 +31,12 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1533/135326.jpg",
-            "name": "Idol",
-            "alt_name": "Idol",
-            "id": 55016,
-            "season": "Spring 2023",
-            "type": "Music",
+            "img": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
+            "name": "Cyberpunk: Edgerunners",
+            "alt_name": "Cyberpunk: Edgerunners",
+            "id": 42310,
+            "season": "Fall 2022",
+            "type": "ONA",
             "rating": {
                 "objective": {
                     "characters": {

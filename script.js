@@ -96,7 +96,7 @@ $.getJSON('rating.json', function(data) {
         if (arr[arr.length-1].id<newanime.id){
             arr.push(newanime)
         }
-        console.log("sort", data)
+        console.log("inserted new entry:", data)
     };
 
 
@@ -108,7 +108,7 @@ $.getJSON('rating.json', function(data) {
   function add() {
       for (i=1; i<=data.animes.length; i++) {
           addAnother(i,false);
-      } console.log("done")
+      } //console.log("done")
       waiting = false;
   }
 
@@ -271,7 +271,7 @@ $.getJSON('rating.json', function(data) {
 //sort
 
 function sort(ascending, category) {
-  console.log("start sorting " + ascending + " " + category);
+  console.log("start sorting | ascending: " + ascending + " | category: " + category);
   const tbody = document.getElementById("foo");
   const rows = tbody.getElementsByClassName("mainrow");
 
@@ -280,7 +280,7 @@ function sort(ascending, category) {
     const aVal = getSortValue(a, category);
     const bVal = getSortValue(b, category);
 
-    console.log(category)
+    //console.log(category)
   
     if (typeof aVal === 'string' && typeof bVal === 'string') {
       return ascending ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
@@ -450,13 +450,13 @@ function numberleft(){
 function waitforload(){
   if(!waiting){
     numberleft();
+    sort(false, 'mal_rating');
     //console.log("numbers on screeeeen")
   }
   else{
     setTimeout(function() {
-      waitforload();
-      sort(false, 'mal_rating');
       //console.log("wait")
+      waitforload();
     }, 1);
   }
 }
@@ -497,9 +497,6 @@ function showrating(id) {
     }
   }*/
 }
-
-
-
 
 
 

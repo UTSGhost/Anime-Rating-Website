@@ -17614,6 +17614,120 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1145/127594.jpg",
+      "name": "Boku ga Aishita Subete no Kimi e",
+      "alt_name": "To Every You I've Loved Before",
+      "id": 49834,
+      "season": "Fall 2022",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4,
+            "antagonist": 0,
+            "side_characters": 5,
+            "realistic": 5
+          },
+          "writing": {
+            "ending": 4,
+            "logical": 2,
+            "plot": 4
+          },
+          "music_sound": {
+            "ost_bgm": 5,
+            "voiceacting": 0,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 5,
+            "vibe": 4,
+            "climax": 5
+          },
+          "story": {
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 4,
+            "enjoyable_content": 4
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 0,
+            "relationships": 6
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 1,
+            "nostalgia": 3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1332/127596.jpg",
+      "name": "Kimi wo Aishita Hitori no Boku e",
+      "alt_name": "To Me, The One Who Loved You",
+      "id": 49835,
+      "season": "Fall 2022",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4,
+            "antagonist": 0,
+            "side_characters": 5,
+            "realistic": 3
+          },
+          "writing": {
+            "ending": 5,
+            "logical": 2,
+            "plot": 6
+          },
+          "music_sound": {
+            "ost_bgm": 4,
+            "voiceacting": 0,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 5,
+            "vibe": 4,
+            "climax": 6
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 6
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 0,
+            "relationships": 6
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 1,
+            "nostalgia": 3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1191/127909.jpg",
       "name": "Tensei shitara Ken deshita",
       "alt_name": "Reincarnated as a Sword",

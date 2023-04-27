@@ -31,12 +31,12 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
-            "name": "Cyberpunk: Edgerunners",
-            "alt_name": "Cyberpunk: Edgerunners",
-            "id": 42310,
+            "img": "https://cdn.myanimelist.net/images/anime/1332/127596.jpg",
+            "name": "Kimi wo Aishita Hitori no Boku e",
+            "alt_name": "To Me, The One Who Loved You",
+            "id": 49835,
             "season": "Fall 2022",
-            "type": "ONA",
+            "type": "Movie",
             "rating": {
                 "objective": {
                     "characters": {

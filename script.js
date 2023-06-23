@@ -31,12 +31,12 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1332/127596.jpg",
-            "name": "Kimi wo Aishita Hitori no Boku e",
-            "alt_name": "To Me, The One Who Loved You",
-            "id": 49835,
-            "season": "Fall 2022",
-            "type": "Movie",
+            "img": "https://cdn.myanimelist.net/images/anime/1932/131464.jpg",
+            "name": "Isekai wa Smartphone to Tomo ni. 2",
+            "alt_name": "In Another World With My Smartphone 2",
+            "id": 51632,
+            "season": "Spring 2023",
+            "type": "TV",
             "rating": {
                 "objective": {
                     "characters": {
@@ -209,8 +209,8 @@ $.getJSON('rating.json', function(data) {
     let subj_aftertaste = subj_memory.aftertaste
     let subj_memory_rating = subj_addictive + subj_nostalgia + subj_aftertaste
 
-    let subjectiver = subj_emotions_rating + subj_story_rating + subj_memory_rating + subj_characters_rating
-    let objectiver = obj_character_rating + obj_writing_rating + obj_sound_rating + obj_art_rating
+    let subjectiver = Math.round((subj_emotions_rating + subj_story_rating + subj_memory_rating + subj_characters_rating) * 100) / 100
+    let objectiver = Math.round((obj_character_rating + obj_writing_rating + obj_sound_rating + obj_art_rating) * 100) / 100
     let fullrate = objectiver + subjectiver
     let malrate = Math.round((fullrate + Number.EPSILON) * 100) / 1000
 

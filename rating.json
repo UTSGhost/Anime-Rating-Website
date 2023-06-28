@@ -6126,9 +6126,9 @@
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 9,
+            "fight_scenes_general_smooth_movement": 8,
             "character_design": 2,
-            "world_building": 1
+            "world_building": 2
           }
         },
         "subjective": {
@@ -15391,6 +15391,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1590/116274.jpg",
+      "name": "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
+      "alt_name": "Sword Art Online the Movie: Progressive - Aria of a Starless Night",
+      "id": 42916,
+      "season": "Fall 2021",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3,
+            "antagonist": 2,
+            "side_characters": 2,
+            "realistic": 1
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 2,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 3,
+            "voiceacting": 2,
+            "op_ed": 3,
+            "soundeffects": 2
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 5,
+            "character_design": 2,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 6,
+            "climax": 5
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 2,
+            "enjoyable_content": 5
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 4
+          },
+          "memory": {
+            "aftertaste": 4,
+            "addictive": 3,
+            "nostalgia": 3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1530/124920.jpg",
       "name": "Jashin-chan Dropkick X",
       "alt_name": "Dropkick On My Devil!! X",
@@ -18748,6 +18805,63 @@
             "aftertaste": 2,
             "addictive": 2.6,
             "nostalgia": 1
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1812/134736.jpg",
+      "name": "\"Oshi no Ko\"",
+      "alt_name": "[Oshi No Ko]",
+      "id": 52034,
+      "season": "Spring 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3.8,
+            "antagonist": 3,
+            "side_characters": 4.9,
+            "realistic": 1.2
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 2,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 2,
+            "op_ed": 7,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 5,
+            "character_design": 5,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 3,
+            "climax": 7
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 1.8,
+            "enjoyable_content": 2.3
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 2.2,
+            "nostalgia": 1.76
           }
         },
         "explain": "No review written yet"

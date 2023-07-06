@@ -15448,6 +15448,120 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1626/135844.jpg",
+      "name": "Kono Subarashii Sekai ni Bakuen wo!",
+      "alt_name": "KonoSuba: An Explosion on This Wonderful World!",
+      "id": 51958,
+      "season": "Spring 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 6,
+            "antagonist": 3,
+            "side_characters": 4,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 5,
+            "logical": 3,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 2,
+            "voiceacting": 3,
+            "op_ed": 5,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 4,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 3,
+            "climax": 4
+          },
+          "story": {
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 1,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 4,
+            "relationships": 0
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 2,
+            "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1121/133132.jpg",
+      "name": "Tengoku Daimakyou",
+      "alt_name": "Heavenly Delusion",
+      "id": 53393,
+      "season": "Spring 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 3,
+            "side_characters": 4,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 2,
+            "plot": 5
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 1,
+            "op_ed": 6.8,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 5.2,
+            "climax": 2.7
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 4,
+            "enjoyable_content": 4
+          },
+          "characters": {
+            "likeable": 2,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 3,
+            "nostalgia": 0.3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1530/124920.jpg",
       "name": "Jashin-chan Dropkick X",
       "alt_name": "Dropkick On My Devil!! X",

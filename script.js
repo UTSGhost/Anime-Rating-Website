@@ -31,12 +31,12 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1590/116274.jpg",
-            "name": "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
-            "alt_name": "Sword Art Online the Movie: Progressive - Aria of a Starless Night",
-            "id": 42916,
-            "season": "Fall 2021",
-            "type": "Movie",
+            "img": "https://cdn.myanimelist.net/images/anime/1626/135844.jpg",
+            "name": "Kono Subarashii Sekai ni Bakuen wo!",
+            "alt_name": "KonoSuba: An Explosion on This Wonderful World!",
+            "id": 51958,
+            "season": "Spring 2023",
+            "type": "TV",
             "rating": {
                 "objective": {
                     "characters": {

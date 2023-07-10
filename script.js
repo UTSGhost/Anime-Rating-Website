@@ -32,10 +32,10 @@ $.getJSON('rating.json', function(data) {
         let arr = data.animes
         let newanime = {
             "img": "https://cdn.myanimelist.net/images/anime/1626/135844.jpg",
-            "name": "Kono Subarashii Sekai ni Bakuen wo!",
-            "alt_name": "KonoSuba: An Explosion on This Wonderful World!",
-            "id": 51958,
-            "season": "Spring 2023",
+            "name": "Kubo-san wa Mob wo Yurusanai",
+            "alt_name": "Kubo Won't Let Me Be Invisible",
+            "id": 51815,
+            "season": "Winter 2023",
             "type": "TV",
             "rating": {
                 "objective": {

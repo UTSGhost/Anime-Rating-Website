@@ -15448,6 +15448,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1818/132330.jpg",
+      "name": "Kubo-san wa Mob wo Yurusanai",
+      "alt_name": "Kubo Won't Let Me Be Invisible",
+      "id": 51815,
+      "season": "Winter 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3.3,
+            "antagonist": 0,
+            "side_characters": 4,
+            "realistic": 2.8
+          },
+          "writing": {
+            "ending": 5,
+            "logical": 2.25,
+            "plot": 4
+          },
+          "music_sound": {
+            "ost_bgm": 2,
+            "voiceacting": 2,
+            "op_ed": 7.7,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3.2,
+            "character_design": 3,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 5,
+            "climax": 2.1
+          },
+          "story": {
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 3.4,
+            "enjoyable_content": 4.29
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 4,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 2.3,
+            "addictive": 1.7,
+            "nostalgia": 1.9
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1626/135844.jpg",
       "name": "Kono Subarashii Sekai ni Bakuen wo!",
       "alt_name": "KonoSuba: An Explosion on This Wonderful World!",

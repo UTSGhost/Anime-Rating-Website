@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1626/135844.jpg",
-            "name": "Kubo-san wa Mob wo Yurusanai",
-            "alt_name": "Kubo Won't Let Me Be Invisible",
-            "id": 51815,
-            "season": "Winter 2023",
+            "img": "https://cdn.myanimelist.net/images/anime/1874/135872.jpg",
+            "name": "Shayou (Music)",
+            "alt_name": "Setting Sun",
+            "id": 55277,
+            "season": "Spring 2023",
             "type": "TV",
             "rating": {
                 "objective": {

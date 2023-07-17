@@ -11633,7 +11633,7 @@
       "name": "5-toubun no Hanayome",
       "alt_name": "The Quintessential Quintuplets",
       "id": 38101,
-      "season": "2019 Winter",
+      "season": "Winter 2019",
       "type": "TV",
       "rating": {
         "objective": {
@@ -15452,7 +15452,7 @@
       "name": "Kubo-san wa Mob wo Yurusanai",
       "alt_name": "Kubo Won't Let Me Be Invisible",
       "id": 51815,
-      "season": "Winter 2023",
+      "season": "Spring 2023",
       "type": "TV",
       "rating": {
         "objective": {
@@ -15555,6 +15555,63 @@
           "memory": {
             "aftertaste": 3,
             "addictive": 2,
+            "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1545/133887.jpg",
+      "name": "Boku no Kokoro no Yabai Yatsu",
+      "alt_name": "The Dangers in My Heart",
+      "id": 52578,
+      "season": "Spring 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 2,
+            "antagonist": 0,
+            "side_characters": 4,
+            "realistic": 2
+          },
+          "writing": {
+            "ending": 5,
+            "logical": 3,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 3,
+            "voiceacting": 0,
+            "op_ed": 6.5,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2.5,
+            "character_design": 2.2,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 4.2,
+            "climax": 4.3
+          },
+          "story": {
+            "satisfying_ending": 4.02,
+            "no_unnecessary_scenes": 2.05,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 1.8,
+            "waifus": 0,
+            "relationships": 4.2
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 2.1,
             "nostalgia": 2
           }
         },
@@ -19150,6 +19207,63 @@
           }
         },
         "explain": "Note that this is a music video, so my ratings either are based on ep1, ep2-11 or from the MV."
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1874/135872.jpg",
+      "name": "Shayou (Music)",
+      "alt_name": "Setting Sun",
+      "id": 55277,
+      "season": "Spring 2023",
+      "type": "Music",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3,
+            "antagonist": 0,
+            "side_characters": 3,
+            "realistic": 3
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 3,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 1,
+            "op_ed": 7,
+            "soundeffects": 1
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 5,
+            "vibe": 5,
+            "climax": 5
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 2,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 3,
+            "nostalgia": 3
+          }
+        },
+        "explain": "Just adding some random scores so it reaches my desired rating (having mvs in this list is really stupid)"
       }
     }
   ]

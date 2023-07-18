@@ -31,10 +31,10 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1874/135872.jpg",
-            "name": "Shayou (Music)",
-            "alt_name": "Setting Sun",
-            "id": 55277,
+            "img": "https://cdn.myanimelist.net/images/anime/1091/135041.jpg",
+            "name": "Otonari ni Ginga",
+            "alt_name": "A Galaxy Next Door",
+            "id": 51705,
             "season": "Spring 2023",
             "type": "TV",
             "rating": {

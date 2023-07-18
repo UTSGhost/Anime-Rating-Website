@@ -15448,6 +15448,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1091/135041.jpg",
+      "name": "Otonari ni Ginga",
+      "alt_name": "A Galaxy Next Door",
+      "id": 51705,
+      "season": "Spring 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 1.7,
+            "antagonist": 1.1,
+            "side_characters": 3,
+            "realistic": 3.5
+          },
+          "writing": {
+            "ending": 2.2,
+            "logical": 1,
+            "plot": 2
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 1,
+            "op_ed": 6.5,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 2,
+            "vibe": 2,
+            "climax": 3
+          },
+          "story": {
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 1,
+            "enjoyable_content": 1
+          },
+          "characters": {
+            "likeable": 1,
+            "waifus": 0,
+            "relationships": 1
+          },
+          "memory": {
+            "aftertaste": 1,
+            "addictive": 1,
+            "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1818/132330.jpg",
       "name": "Kubo-san wa Mob wo Yurusanai",
       "alt_name": "Kubo Won't Let Me Be Invisible",

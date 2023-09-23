@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1091/135041.jpg",
-            "name": "Otonari ni Ginga",
-            "alt_name": "A Galaxy Next Door",
-            "id": 51705,
-            "season": "Spring 2023",
+            "img": "https://cdn.myanimelist.net/images/anime/1475/137152.jpg",
+            "name": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II",
+            "alt_name": "The Misfit of Demon King Academy Ⅱ",
+            "id": 48417,
+            "season": "Winter 2023",
             "type": "TV",
             "rating": {
                 "objective": {

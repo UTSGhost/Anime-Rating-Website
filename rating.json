@@ -15448,6 +15448,120 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1475/137152.jpg",
+      "name": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II",
+      "alt_name": "The Misfit of Demon King Academy Ⅱ",
+      "id": 48417,
+      "season": "Winter 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 7,
+            "antagonist": 3,
+            "side_characters": 2,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 3,
+            "plot": 2.2
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 2,
+            "op_ed": 7.1,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 5,
+            "climax": 5.05
+          },
+          "story": {
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 1,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 2.7
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 3,
+            "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1399/128318.jpg",
+      "name": "NieR:Automata Ver1.1a",
+      "alt_name": "NieR:Automata Ver1.1a",
+      "id": 51105,
+      "season": "Winter 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 2.5,
+            "antagonist": 3,
+            "side_characters": 2.2,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 2,
+            "plot": 2
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 0,
+            "op_ed": 3,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 3.9,
+            "climax": 2.65
+          },
+          "story": {
+            "satisfying_ending": 2.5,
+            "no_unnecessary_scenes": 1.8,
+            "enjoyable_content": 2.2
+          },
+          "characters": {
+            "likeable": 2,
+            "waifus": 0,
+            "relationships": 1.18
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 1.8,
+            "nostalgia": 1.9
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1091/135041.jpg",
       "name": "Otonari ni Ginga",
       "alt_name": "A Galaxy Next Door",
@@ -19321,6 +19435,63 @@
           }
         },
         "explain": "Just adding some random scores so it reaches my desired rating (having mvs in this list is really stupid)"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1627/136934.jpg",
+      "name": "Mushoku Tensei II: Isekai Ittara Honki Dasu - Shugo Jutsushi Fitz",
+      "alt_name": "Mushoku Tensei II: Isekai Ittara Honki Dasu - Shugo Jutsushi Fitz",
+      "id": 55818,
+      "season": "Summer 2023",
+      "type": "Special",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 2,
+            "antagonist": 2,
+            "side_characters": 2,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 2.2,
+            "logical": 3,
+            "plot": 4
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 0,
+            "op_ed": 3,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 3,
+            "climax": 2
+          },
+          "story": {
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 3.5,
+            "enjoyable_content": 1.8
+          },
+          "characters": {
+            "likeable": 2,
+            "waifus": 0,
+            "relationships": 1.5
+          },
+          "memory": {
+            "aftertaste": 1,
+            "addictive": 1,
+            "nostalgia": 1
+          }
+        },
+        "explain": "No review written yet"
       }
     }
   ]

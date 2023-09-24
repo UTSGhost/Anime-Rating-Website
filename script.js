@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1475/137152.jpg",
-            "name": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II",
-            "alt_name": "The Misfit of Demon King Academy Ⅱ",
-            "id": 48417,
-            "season": "Winter 2023",
+            "img": "https://cdn.myanimelist.net/images/anime/1898/138005.jpg",
+            "name": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
+            "alt_name": "Mushoku Tensei: Jobless Reincarnation Season 2",
+            "id": 51179,
+            "season": "Summer 2023",
             "type": "TV",
             "rating": {
                 "objective": {

@@ -15562,6 +15562,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1898/138005.jpg",
+      "name": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
+      "alt_name": "Mushoku Tensei: Jobless Reincarnation Season 2",
+      "id": 51179,
+      "season": "Summer 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 2,
+            "side_characters": 4,
+            "realistic": 2
+          },
+          "writing": {
+            "ending": 4.15,
+            "logical": 3,
+            "plot": 4
+          },
+          "music_sound": {
+            "ost_bgm": 2,
+            "voiceacting": 0,
+            "op_ed": 4.8,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 3.5
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 3,
+            "climax": 3.5
+          },
+          "story": {
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 2
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 4
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 3,
+            "nostalgia": 1.5
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1091/135041.jpg",
       "name": "Otonari ni Ginga",
       "alt_name": "A Galaxy Next Door",

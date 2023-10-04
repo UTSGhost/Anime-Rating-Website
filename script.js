@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1898/138005.jpg",
-            "name": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
-            "alt_name": "Mushoku Tensei: Jobless Reincarnation Season 2",
-            "id": 51179,
-            "season": "Summer 2023",
+            "img": "https://cdn.myanimelist.net/images/anime/1070/124592.jpg",
+            "name": "Kanojo, Okarishimasu 2nd Season",
+            "alt_name": "Rent-a-Girlfriend Season 2",
+            "id": 42963,
+            "season": "Summer 2022",
             "type": "TV",
             "rating": {
                 "objective": {

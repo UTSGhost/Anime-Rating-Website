@@ -31,11 +31,11 @@ $.getJSON('rating.json', function(data) {
     function newsort() {
         let arr = data.animes
         let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1070/124592.jpg",
-            "name": "Kanojo, Okarishimasu 2nd Season",
-            "alt_name": "Rent-a-Girlfriend Season 2",
-            "id": 42963,
-            "season": "Summer 2022",
+            "img": "https://cdn.myanimelist.net/images/anime/1996/133361.jpg",
+            "name": "Tonikaku Kawaii 2nd Season",
+            "alt_name": "TONIKAWA: Over The Moon For You Season 2",
+            "id": 50307,
+            "season": "Spring 2023",
             "type": "TV",
             "rating": {
                 "objective": {

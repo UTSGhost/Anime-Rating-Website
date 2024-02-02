@@ -20,89 +20,9 @@ $.getJSON('rating.json', function(data) {
     
     console.log("renamenewstuff: ", data);
   }
-  
 
 
     //renamestuff()
-
-
-
-
-    function newsort() {
-        let arr = data.animes
-        let newanime = {
-            "img": "https://cdn.myanimelist.net/images/anime/1996/133361.jpg",
-            "name": "Kage no Jitsuryokusha ni Naritakute! 2nd Season",
-            "alt_name": "The Eminence in Shadow Season 2",
-            "id": 54595,
-            "season": "Fall 2023",
-            "type": "TV",
-            "rating": {
-                "objective": {
-                    "characters": {
-                        "protagonist": 0,
-                        "antagonist": 0,
-                        "side_characters": 0,
-                        "realistic": 0
-                    },
-                    "writing": {
-                        "ending": 0,
-                        "logical": 0,
-                        "plot": 0
-                    },
-                    "music_sound": {
-                        "ost_bgm": 0,
-                        "voiceacting": 0,
-                        "op_ed": 0,
-                        "soundeffects": 0
-                    },
-                    "animation_art": {
-                        "fight_scenes_general_smooth_movement": 0,
-                        "character_design": 0,
-                        "world_building": 0
-                    }
-                    },
-                    "subjective": {
-                    "emotions": {
-                        "comedic_sad_thrilling": 0,
-                        "vibe": 0,
-                        "climax": 0
-                    },
-                    "story": {
-                        "satisfying_ending": 0,
-                        "no_unnecessary_scenes": 0,
-                        "enjoyable_content": 0
-                    },
-                    "characters": {
-                        "likeable": 0,
-                        "waifus": 0,
-                        "relationships": 0
-                    },
-                    "memory": {
-                        "aftertaste": 0,
-                        "addictive": 0,
-                        "nostalgia": 0
-                    }
-                },
-                "explain": "No review written yet"
-              }
-        };
-        for(let i=0;i<arr.length;i++){
-            if(newanime.id<arr[i].id){
-                arr.splice(i, 0, newanime);
-                i = arr.length;
-            }
-        }
-        if (arr[arr.length-1].id<newanime.id){
-            arr.push(newanime)
-        }
-        console.log("inserted new entry:", data)
-    };
-
-
-    newsort()
-
-
 
 
   function add() {
@@ -509,23 +429,3 @@ function showrating(id) {
     }
   }*/
 }
-
-/* needs further testing with api
-if (id == 42897) {
-  async function loadAnimeInfo(id) {
-    try {
-      const response = await fetch(`https://api.jikan.moe/v4/anime/${id}`);
-      const animeInfo = await response.json();
-      console.log("Success with anime info", animeInfo.data.images.jpg.image_url);
-
-      // Update the global variable inside the .then block
-      updateImg(animeInfo.data.images.jpg.image_url);
-
-      // Return the animeInfo object if needed
-      return animeInfo;
-    } catch (error) {
-      console.error('Error:', error.message);
-      throw error; // Re-throw the error for further handling
-    }
-  }
-*/

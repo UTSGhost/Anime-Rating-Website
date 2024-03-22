@@ -19447,48 +19447,48 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 5,
             "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "side_characters": 5,
+            "realistic": 6
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 4,
+            "logical": 5,
+            "plot": 6
           },
           "music_sound": {
-            "ost_bgm": 0,
+            "ost_bgm": 2,
             "voiceacting": 0,
-            "op_ed": 0,
+            "op_ed": 8,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 4.5,
+            "character_design": 2,
+            "world_building": 4.5
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 3,
+            "vibe": 7,
+            "climax": 5
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 4,
+            "enjoyable_content": 6
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 4,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 4
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 2,
+            "addictive": 3,
+            "nostalgia": 4.6
           }
         },
         "explain": "No review written yet"

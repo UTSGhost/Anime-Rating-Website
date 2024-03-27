@@ -18811,6 +18811,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1332/139318.jpg",
+      "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
+      "alt_name": "Classroom of the Elite III",
+      "id": 51180,
+      "season": "Winter 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 6.5,
+            "antagonist": 5,
+            "side_characters": 3,
+            "realistic": 1
+          },
+          "writing": {
+            "ending": 6,
+            "logical": 4,
+            "plot": 5
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 3,
+            "op_ed": 6,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 1,
+            "character_design": 2.4,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 4,
+            "climax": 7
+          },
+          "story": {
+            "satisfying_ending": 7,
+            "no_unnecessary_scenes": 1.5,
+            "enjoyable_content": 4
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 2,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 4,
+            "addictive": 4,
+            "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1491/132864.jpg",
       "name": "Spy Kyoushitsu",
       "alt_name": "Spy Classroom",

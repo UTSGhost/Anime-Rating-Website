@@ -90,7 +90,7 @@ def get_anime_data(anime_id):
 existing_json_file = 'rating.json'
 
 # Specify the anime ID you want to add
-anime_id_to_add = 52991
+anime_id_to_add = 51180
 
 # Get anime data
 new_anime_data = get_anime_data(anime_id_to_add) ###################################################

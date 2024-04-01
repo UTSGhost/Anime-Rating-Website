@@ -19381,6 +19381,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1926/140799.jpg",
+      "name": "Ore dake Level Up na Ken",
+      "alt_name": "Solo Leveling",
+      "id": 52299,
+      "season": "Winter 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 0,
+            "antagonist": 0,
+            "side_characters": 0,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 0,
+            "logical": 0,
+            "plot": 0
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 0,
+            "op_ed": 0,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 0,
+            "character_design": 0,
+            "world_building": 0
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 0,
+            "vibe": 0,
+            "climax": 0
+          },
+          "story": {
+            "satisfying_ending": 0,
+            "no_unnecessary_scenes": 0,
+            "enjoyable_content": 0
+          },
+          "characters": {
+            "likeable": 0,
+            "waifus": 0,
+            "relationships": 0
+          },
+          "memory": {
+            "aftertaste": 0,
+            "addictive": 0,
+            "nostalgia": 0
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1444/131828.jpg",
       "name": "Tomo-chan wa Onnanoko!",
       "alt_name": "Tomo-chan Is a Girl!",

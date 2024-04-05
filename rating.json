@@ -10377,7 +10377,7 @@
     {
       "img": "https://cdn.myanimelist.net/images/anime/1098/93257.jpg",
       "name": "One Room: Second Season",
-      "alt_name": null,
+      "alt_name": "One Room: Second Season",
       "id": 36431,
       "season": "Summer 2018",
       "type": "TV",
@@ -11289,7 +11289,7 @@
     {
       "img": "https://cdn.myanimelist.net/images/anime/1833/95350.jpg",
       "name": "Osake wa Fuufu ni Natte kara: Yuzu Atsukan",
-      "alt_name": null,
+      "alt_name": "Osake wa Fuufu ni Natte kara: Yuzu Atsukan",
       "id": 37826,
       "season": "None None",
       "type": "ONA",
@@ -12201,7 +12201,7 @@
     {
       "img": "https://cdn.myanimelist.net/images/anime/1630/97029.jpg",
       "name": "One Room: Second Season Special",
-      "alt_name": null,
+      "alt_name": "One Room: Second Season Special",
       "id": 38789,
       "season": "None None",
       "type": "Special",
@@ -14082,7 +14082,7 @@
     {
       "img": "https://cdn.myanimelist.net/images/anime/1553/109101.jpg",
       "name": "One Room: Third Season",
-      "alt_name": null,
+      "alt_name": "One Room: Third Season",
       "id": 41364,
       "season": "Fall 2020",
       "type": "TV",
@@ -17046,7 +17046,7 @@
     {
       "img": "https://cdn.myanimelist.net/images/anime/1277/117155.jpg",
       "name": "Mieruko-chan",
-      "alt_name": null,
+      "alt_name": "Mieruko-chan",
       "id": 48483,
       "season": "Fall 2021",
       "type": "TV",
@@ -19390,48 +19390,48 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "protagonist": 2,
+            "antagonist": 2,
+            "side_characters": 1,
+            "realistic": 1
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 3,
+            "logical": 1,
+            "plot": 3
           },
           "music_sound": {
             "ost_bgm": 0,
             "voiceacting": 0,
-            "op_ed": 0,
-            "soundeffects": 0
+            "op_ed": 4,
+            "soundeffects": 1
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 4,
+            "character_design": 1,
+            "world_building": 2
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 2,
+            "vibe": 1,
+            "climax": 2
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 2,
+            "enjoyable_content": 2
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 1,
             "waifus": 0,
             "relationships": 0
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 2,
+            "addictive": 1,
+            "nostalgia": 1.9
           }
         },
         "explain": "No review written yet"
@@ -19717,6 +19717,63 @@
             "aftertaste": 0,
             "addictive": 0,
             "nostalgia": 0
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1506/138982.jpg",
+      "name": "Spy x Family Season 2",
+      "alt_name": "Spy x Family Season 2",
+      "id": 53887,
+      "season": "Fall 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 3,
+            "side_characters": 6,
+            "realistic": 1
+          },
+          "writing": {
+            "ending": 6,
+            "logical": 3,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 2,
+            "op_ed": 4.5,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 3,
+            "climax": 6
+          },
+          "story": {
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 1,
+            "enjoyable_content": 4
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 3.5
+          },
+          "memory": {
+            "aftertaste": 4,
+            "addictive": 1,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"

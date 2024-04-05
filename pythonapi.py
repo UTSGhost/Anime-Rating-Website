@@ -16,7 +16,7 @@ def get_anime_data(anime_id):
     season = anime_data['data'].get('season', 'Season Not Found')
     year = anime_data['data'].get('year', 'Year Not Found')
     anime_type = anime_data['data'].get('type', 'Type Not Found')
-    alt_name = name if alt_name == 'null' else alt_name
+    alt_name = name if alt_name is None else alt_name
     season = season.capitalize() if season is not None else 'Season Not Found'
 
 
@@ -90,7 +90,7 @@ def get_anime_data(anime_id):
 existing_json_file = 'rating.json'
 
 # Specify the anime ID you want to add
-anime_id_to_add = 52299
+anime_id_to_add = 53887
 
 # Get anime data
 new_anime_data = get_anime_data(anime_id_to_add) ###################################################

@@ -1,6 +1,11 @@
 import json
 import time
 from jikanpy import Jikan
+import tkinter as tk
+from tkinter import ttk
+from tkinter import messagebox
+import os
+print("Current Working Directory:", os.getcwd())
 
 # Function to get anime data and construct a dictionary
 def get_anime_data(anime_id):
@@ -89,60 +94,87 @@ def get_anime_data(anime_id):
 # Specify the existing JSON file (assuming it's in the same folder as the script)
 existing_json_file = 'rating.json'
 
-# Specify the anime ID you want to add
-anime_id_to_add = 53887
 
-# Get anime data
-new_anime_data = get_anime_data(anime_id_to_add) ###################################################
-
-
-# Read existing JSON data
-with open(existing_json_file, 'r') as file:
-    existing_data = json.load(file)
-
-replaced_animes_count = 0
-max_animes_to_replace = 5
-
-
-existing_anime_index = next((index for index, anime in enumerate(existing_data['animes']) if anime['id'] == new_anime_data['id']), None)
-
-# Check if an anime with the same ID exists
-if existing_anime_index is not None:
-    # Check if alt_name is missing or empty
-    if 'alt_name' not in existing_data['animes'][existing_anime_index] or existing_data['animes'][existing_anime_index]['alt_name'] == "":
-        existing_data['animes'][existing_anime_index] = new_anime_data
-        feedback_message = f"Replaced anime with ID {new_anime_data['id']} as it was missing or had an empty alt_name."
+# Function to handle adding anime and updating JSON file
+# Function to handle adding anime and updating JSON file
+def add_anime():
+    anime_id_to_add = int(entry_anime_id.get())
+    new_anime_data = get_anime_data(anime_id_to_add)
+    
+    with open(existing_json_file, 'r') as file:
+        existing_data = json.load(file)
+    
+   # replaced_animes_count = 0
+    #max_animes_to_replace = 5
+    
+    existing_anime_index = next((index for index, anime in enumerate(existing_data['animes']) if anime['id'] == new_anime_data['id']), None)
+    
+    if existing_anime_index is not None:
+        if 'alt_name' not in existing_data['animes'][existing_anime_index] or existing_data['animes'][existing_anime_index]['alt_name'] == "":
+            existing_data['animes'][existing_anime_index] = new_anime_data
+            feedback_message = f"Replaced anime with ID {new_anime_data['id']} as it was missing or had an empty alt_name."
+        else:
+            feedback_message = f"Anime with ID {new_anime_data['id']} already exists. No action taken."
     else:
-        feedback_message = f"Anime with ID {new_anime_data['id']} already exists. No action taken."
-else:
-    # If an anime with the same ID does not exist, proceed to add it
-    existing_data['animes'].append(new_anime_data)
-    feedback_message = f"Added new anime with ID {new_anime_data['id']}"
+        existing_data['animes'].append(new_anime_data)
+        feedback_message = f"Added new anime with ID {new_anime_data['id']}"
+    
+  #  for index, anime in enumerate(existing_data['animes']):
+   #     if 'img' not in anime or not anime['img']:
+    #        anime_data_without_img = get_anime_data(anime['id'])
+     #       existing_data['animes'][index] = anime_data_without_img
+      #      replaced_animes_count += 1
+       #     if replaced_animes_count >= max_animes_to_replace:
+        #        break
+    
+    existing_data['animes'] = sorted(existing_data['animes'], key=lambda x: x['id'])
+    
+    with open(existing_json_file, 'w') as file:
+        json.dump(existing_data, file, indent=2)
+    
+    feedback_text = f"Feedback: {feedback_message}"
+    print(feedback_text)
+    
+    # Display the message box with custom design
+    messagebox.showinfo("Feedback", feedback_message)
+
+# Create the main window
+window = tk.Tk()
+window.title("Anime ID Input")
+window.configure(background='#353535')  # Set background color for the entire window
+
+# Define font settings
+font_style = ('Nunito', 12)
+
+# Create a frame to hold the elements
+frame = tk.Frame(window, bg='#353535')
+frame.pack(padx=20, pady=20)
+
+# Create a label and entry for entering anime ID
+label_anime_id = tk.Label(frame, text="Enter Anime ID:", font=font_style, fg='#D3D3D3', bg='#353535')
+label_anime_id.grid(row=0, column=0, padx=5, pady=5, sticky='w')
+
+entry_anime_id = tk.Entry(frame, font=font_style, bg='#353535', fg='#D3D3D3')
+entry_anime_id.grid(row=0, column=1, padx=5, pady=5)
+
+# Create a button to add the anime
+btn_add_anime = tk.Button(frame, text="Add Anime", command=add_anime, font=font_style, bg='#202020', fg='#D3D3D3', justify='center', anchor='center', width=10)
+btn_add_anime.grid(row=1, column=0, columnspan=2, padx=5, pady=10, sticky='ew')  # Center the button horizontally and span across both columns
+
+# Center the button text both horizontally and vertically
+btn_add_anime.grid_configure(ipadx=20, ipady=10, pady=5) # Increase padding to center text vertically
+
+# Center the window on the screen
+window_width = 300
+window_height = 150
+screen_width = window.winfo_screenwidth()
+screen_height = window.winfo_screenheight()
+x = (screen_width - window_width) // 2
+y = (screen_height - window_height) // 2
+window.geometry(f"{window_width}x{window_height}+{x}+{y}")
+
+# Run the GUI
+window.mainloop()
 
 
-
-
-
-# Loop through existing animes and replace those without an image using their IDs
-for index, anime in enumerate(existing_data['animes']):
-    if 'img' not in anime or not anime['img']:
-        anime_data_without_img = get_anime_data(anime['id'])
-
-        # Replace the entire entry
-        existing_data['animes'][index] = anime_data_without_img
-        replaced_animes_count += 1
-
-        # Check if the maximum number of replacements is reached
-        if replaced_animes_count >= max_animes_to_replace:
-            break
-
-# Sort the "animes" array based on the 'id' attribute
-existing_data['animes'] = sorted(existing_data['animes'], key=lambda x: x['id'])
-
-# Write the updated data back to the JSON file
-with open(existing_json_file, 'w') as file:
-    json.dump(existing_data, file, indent=2)
-
-# Provide feedback
-print(feedback_message)
 

@@ -18421,48 +18421,48 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "protagonist": 5.5,
+            "antagonist": 3,
+            "side_characters": 3,
+            "realistic": 2
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 4,
+            "logical": 3,
+            "plot": 5
           },
           "music_sound": {
-            "ost_bgm": 0,
+            "ost_bgm": 4,
             "voiceacting": 0,
-            "op_ed": 0,
+            "op_ed": 4,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
+            "fight_scenes_general_smooth_movement": 5,
             "character_design": 0,
-            "world_building": 0
+            "world_building": 4
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 4,
+            "vibe": 5,
+            "climax": 6
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 5
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 4,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 3,
+            "addictive": 2,
+            "nostalgia": 3
           }
         },
         "explain": "No review written yet"
@@ -18634,6 +18634,63 @@
             "addictive": 1,
             "aftertaste": 2,
             "nostalgia": 1
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1100/142255.jpg",
+      "name": "Mahouka Koukou no Rettousei 3rd Season",
+      "alt_name": "The Irregular at Magic High School Season 3",
+      "id": 50713,
+      "season": "Spring 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4,
+            "antagonist": 4,
+            "side_characters": 3,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 4,
+            "logical": 4,
+            "plot": 4
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 2,
+            "op_ed": 4,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 5,
+            "climax": 2
+          },
+          "story": {
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 4
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 2,
+            "nostalgia": 3.45
           }
         },
         "explain": "No review written yet"

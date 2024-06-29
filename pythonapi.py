@@ -1,5 +1,5 @@
 import json
-import time
+#import time
 from jikanpy import Jikan
 import tkinter as tk
 from tkinter import ttk
@@ -12,7 +12,7 @@ def get_anime_data(anime_id):
     jikan = Jikan()
     anime_data = jikan.anime(anime_id)
 
-    time.sleep(0.6)
+   # time.sleep(0.6)
 
     img = anime_data['data']['images']['jpg'].get('image_url', 'Image Not Found')
     name = anime_data['data'].get('title', 'Title Not Found')
@@ -95,7 +95,6 @@ def get_anime_data(anime_id):
 existing_json_file = 'rating.json'
 
 
-# Function to handle adding anime and updating JSON file
 # Function to handle adding anime and updating JSON file
 def add_anime():
     anime_id_to_add = int(entry_anime_id.get())

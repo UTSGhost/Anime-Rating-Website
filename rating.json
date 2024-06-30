@@ -20120,6 +20120,63 @@
         },
         "explain": "No review written yet"
       }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1876/141251.jpg",
+      "name": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+      "alt_name": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
+      "id": 55888,
+      "season": "Spring 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4.6,
+            "antagonist": 2,
+            "side_characters": 4,
+            "realistic": 3
+          },
+          "writing": {
+            "ending": 5,
+            "logical": 4,
+            "plot": 6
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 2,
+            "op_ed": 4.5,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 4,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 5.5,
+            "vibe": 5,
+            "climax": 4.5
+          },
+          "story": {
+            "satisfying_ending": 5.29,
+            "no_unnecessary_scenes": 5,
+            "enjoyable_content": 4
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 3.1
+          },
+          "memory": {
+            "aftertaste": 3.15,
+            "addictive": 2,
+            "nostalgia": 3
+          }
+        },
+        "explain": "No review written yet"
+      }
     }
   ]
 }

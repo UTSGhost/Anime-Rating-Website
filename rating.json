@@ -19495,6 +19495,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1659/141438.jpg",
+      "name": "Date A Live V",
+      "alt_name": "Date A Live V",
+      "id": 52196,
+      "season": "Spring 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 5,
+            "side_characters": 3.75,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 4.9,
+            "logical": 3.5,
+            "plot": 5.7
+          },
+          "music_sound": {
+            "ost_bgm": 3,
+            "voiceacting": 2,
+            "op_ed": 4.5,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 1.8,
+            "character_design": 3,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 5,
+            "climax": 4
+          },
+          "story": {
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 5
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 2,
+            "relationships": 1.5
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 1,
+            "nostalgia": 3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1926/140799.jpg",
       "name": "Ore dake Level Up na Ken",
       "alt_name": "Solo Leveling",

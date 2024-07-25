@@ -17044,6 +17044,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1399/141651.jpg",
+      "name": "Maou Gakuin no Futekigousha II: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou Part 2",
+      "alt_name": "The Misfit of Demon King Academy II Part 2",
+      "id": 48418,
+      "season": "Spring 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3,
+            "antagonist": 1,
+            "side_characters": 0.5,
+            "realistic": 0.5
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 1,
+            "plot": 2
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 2,
+            "op_ed": 5.1,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 0,
+            "character_design": 0,
+            "world_building": 0
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 2,
+            "vibe": 2,
+            "climax": 3
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 0,
+            "enjoyable_content": 1.5
+          },
+          "characters": {
+            "likeable": 1.8,
+            "waifus": 0,
+            "relationships": 0.75
+          },
+          "memory": {
+            "aftertaste": 1,
+            "addictive": 2,
+            "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1277/117155.jpg",
       "name": "Mieruko-chan",
       "alt_name": "Mieruko-chan",

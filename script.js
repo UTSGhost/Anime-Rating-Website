@@ -289,33 +289,30 @@ function getSortValue(row, category) {
   if (category == "ratingbox"){
     value = value.length
   }
-  console.log(value)
   return value;
 }
 
 
 
+var dropdown = document.getElementById("myDropdown");
+var dropdownContent = document.getElementsByClassName("dropdown-content")[0];
 
-
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
 function showsort() {
-    document.getElementById("myDropdown").classList.toggle("show");
-    }
-    
-    // Close the dropdown menu if the user clicks outside of it
-    window.onclick = function(event) {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
-        }
-      }
-    } 
+  dropdown.classList.toggle("show");
+  document.body.style.overflowX = 'hidden'; // Disable scroll
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropdownmiddle') && !event.target.matches('.dropbtn')) {
+    closedropdown();
+  }
+}
+
+function closedropdown() {
+    console.log("closing");
+    dropdownContent.classList.remove('show');
+    document.body.style.overflowX = ''; // Enable scroll
+}
 
 
 // Get the button:

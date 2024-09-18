@@ -20065,6 +20065,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1825/142258.jpg",
+      "name": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+      "alt_name": "Alya Sometimes Hides Her Feelings in Russian",
+      "id": 54744,
+      "season": "Summer 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 2.9,
+            "antagonist": 4,
+            "side_characters": 2.3,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 2,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 1,
+            "op_ed": 4.1,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2.1,
+            "character_design": 2.5,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3.7,
+            "vibe": 4,
+            "climax": 1.5
+          },
+          "story": {
+            "satisfying_ending": 3.5,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 4.4
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 1.5,
+            "addictive": 3.8,
+            "nostalgia": 3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1921/135489.jpg",
       "name": "Idol",
       "alt_name": "Idol",

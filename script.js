@@ -361,8 +361,8 @@ function closeInfoBox(event) {
 
 
 function discord(){
-  navigator.clipboard.writeText("UTSGhost#4892");
-  alert("Copied Discord Tag: UTSGhost#4892");
+  navigator.clipboard.writeText("UTSGhost");
+  alert("Copied Discord Tag: UTSGhost");
 }
 
 function numberleft(){

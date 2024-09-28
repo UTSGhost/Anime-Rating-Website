@@ -19522,7 +19522,7 @@
           },
           "animation_art": {
             "fight_scenes_general_smooth_movement": 5,
-            "character_design": 5,
+            "character_design": 2,
             "world_building": 3
           }
         },
@@ -19533,9 +19533,9 @@
             "climax": 7
           },
           "story": {
-            "satisfying_ending": 3,
-            "no_unnecessary_scenes": 1.8,
-            "enjoyable_content": 2.3
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 2.8,
+            "enjoyable_content": 3.3
           },
           "characters": {
             "likeable": 3,
@@ -19888,6 +19888,63 @@
             "aftertaste": 2,
             "addictive": 3,
             "nostalgia": 0.3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1211/143476.jpg",
+      "name": "Tensei shitara Slime Datta Ken 3rd Season",
+      "alt_name": "That Time I Got Reincarnated as a Slime Season 3",
+      "id": 53580,
+      "season": "Spring 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 4,
+            "side_characters": 4,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 4,
+            "plot": 4.8
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 1,
+            "op_ed": 3,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 2,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 5,
+            "climax": 5
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 2,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 3.5,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"

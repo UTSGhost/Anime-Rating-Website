@@ -20405,6 +20405,63 @@
         },
         "explain": "No review written yet"
       }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1332/143513.jpg",
+      "name": "Make Heroine ga Oosugiru!",
+      "alt_name": "Makeine: Too Many Losing Heroines!",
+      "id": 57524,
+      "season": "Summer 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4,
+            "antagonist": 0,
+            "side_characters": 5,
+            "realistic": 4
+          },
+          "writing": {
+            "ending": 5,
+            "logical": 3,
+            "plot": 5.5
+          },
+          "music_sound": {
+            "ost_bgm": 3,
+            "voiceacting": 0,
+            "op_ed": 6.5,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 5.5,
+            "character_design": 2,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 4,
+            "climax": 4
+          },
+          "story": {
+            "satisfying_ending": 4.5,
+            "no_unnecessary_scenes": 4,
+            "enjoyable_content": 6
+          },
+          "characters": {
+            "likeable": 3.5,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 3,
+            "nostalgia": 4
+          }
+        },
+        "explain": "No review written yet"
+      }
     }
   ]
 }

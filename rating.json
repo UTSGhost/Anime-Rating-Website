@@ -9353,7 +9353,7 @@
       "name": "Kono Subarashii Sekai ni Shukufuku wo! 2: Kono Subarashii Geijutsu ni Shukufuku wo!",
       "alt_name": "KonoSuba: God's Blessing on This Wonderful World! 2 - God's Blessing on This Wonderful Art!",
       "id": 34626,
-      "season": "None None",
+      "season": "Summer 2017",
       "type": "OVA",
       "rating": {
         "objective": {
@@ -11068,48 +11068,48 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
+            "protagonist": 4,
+            "antagonist": 4,
+            "side_characters": 4,
             "realistic": 0
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 3.8,
+            "logical": 3.6,
+            "plot": 5
           },
           "music_sound": {
-            "ost_bgm": 0,
-            "voiceacting": 0,
-            "op_ed": 0,
+            "ost_bgm": 2,
+            "voiceacting": 2,
+            "op_ed": 1,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 2,
+            "world_building": 3
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 4,
+            "vibe": 4,
+            "climax": 5
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 4,
+            "enjoyable_content": 5
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 3,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 2.5,
+            "addictive": 3,
+            "nostalgia": 1.7
           }
         },
         "explain": "No review written yet"
@@ -12778,48 +12778,48 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
+            "protagonist": 4,
+            "antagonist": 4,
+            "side_characters": 4,
             "realistic": 0
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 4.5,
+            "logical": 4,
+            "plot": 5
           },
           "music_sound": {
-            "ost_bgm": 0,
-            "voiceacting": 0,
+            "ost_bgm": 1.5,
+            "voiceacting": 1.5,
             "op_ed": 0,
-            "soundeffects": 0
+            "soundeffects": 2
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 2,
+            "world_building": 3
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 4,
+            "vibe": 5,
+            "climax": 6
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 3.7,
             "enjoyable_content": 0
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 3,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 4,
+            "addictive": 3,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"
@@ -13001,51 +13001,51 @@
       "name": "Tensei shitara Slime Datta Ken: Kanwa - Veldora Nikki",
       "alt_name": "That Time I Got Reincarnated as a Slime: Tales - Veldora's Journal",
       "id": 39607,
-      "season": "None None",
+      "season": "Spring 2019",
       "type": "Special",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 3,
             "antagonist": 0,
-            "side_characters": 0,
+            "side_characters": 2,
             "realistic": 0
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 2,
+            "logical": 1,
+            "plot": 1
           },
           "music_sound": {
-            "ost_bgm": 0,
-            "voiceacting": 0,
+            "ost_bgm": 1,
+            "voiceacting": 1,
             "op_ed": 0,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 1,
+            "character_design": 1,
+            "world_building": 2
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
+            "comedic_sad_thrilling": 1,
+            "vibe": 1,
             "climax": 0
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
+            "satisfying_ending": 1,
+            "no_unnecessary_scenes": 1,
             "enjoyable_content": 0
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 1,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 1
           },
           "memory": {
-            "aftertaste": 0,
+            "aftertaste": 1,
             "addictive": 0,
             "nostalgia": 0
           }
@@ -14317,48 +14317,48 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
+            "protagonist": 4,
+            "antagonist": 3.5,
+            "side_characters": 5,
             "realistic": 0
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 3.9,
+            "logical": 4,
+            "plot": 5
           },
           "music_sound": {
-            "ost_bgm": 0,
-            "voiceacting": 0,
-            "op_ed": 0,
-            "soundeffects": 0
+            "ost_bgm": 2,
+            "voiceacting": 2,
+            "op_ed": 1,
+            "soundeffects": 2
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 2,
+            "world_building": 3
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 4.2,
+            "vibe": 5,
+            "climax": 5.5
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 1.9,
+            "enjoyable_content": 5
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 3,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 3.5,
+            "addictive": 3,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"
@@ -14374,48 +14374,48 @@
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
+            "protagonist": 3.5,
             "antagonist": 0,
-            "side_characters": 0,
-            "realistic": 0
+            "side_characters": 4,
+            "realistic": 2
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
-            "plot": 0
+            "ending": 2,
+            "logical": 3,
+            "plot": 3
           },
           "music_sound": {
-            "ost_bgm": 0,
-            "voiceacting": 0,
-            "op_ed": 0,
+            "ost_bgm": 2,
+            "voiceacting": 2,
+            "op_ed": 2.2,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 2,
+            "world_building": 2
           }
         },
         "subjective": {
           "emotions": {
-            "comedic_sad_thrilling": 0,
-            "vibe": 0,
-            "climax": 0
+            "comedic_sad_thrilling": 3,
+            "vibe": 3.1,
+            "climax": 3
           },
           "story": {
-            "satisfying_ending": 0,
-            "no_unnecessary_scenes": 0,
-            "enjoyable_content": 0
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 2.9
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 3,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 3
           },
           "memory": {
-            "aftertaste": 0,
-            "addictive": 0,
-            "nostalgia": 0
+            "aftertaste": 1.75,
+            "addictive": 1,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"
@@ -16421,31 +16421,31 @@
       "name": "Tensei shitara Slime Datta Ken: Kanwa - Hinata Sakaguchi",
       "alt_name": "That Time I Got Reincarnated as a Slime Season 2: Digression - Hinata Sakaguchi",
       "id": 45753,
-      "season": "None None",
+      "season": "Winter 2021",
       "type": "Special",
       "rating": {
         "objective": {
           "characters": {
-            "protagonist": 0,
-            "antagonist": 0,
-            "side_characters": 0,
+            "protagonist": 3,
+            "antagonist": 3,
+            "side_characters": 3,
             "realistic": 0
           },
           "writing": {
-            "ending": 0,
-            "logical": 0,
+            "ending": 2,
+            "logical": 2,
             "plot": 0
           },
           "music_sound": {
-            "ost_bgm": 0,
-            "voiceacting": 0,
-            "op_ed": 0,
+            "ost_bgm": 1,
+            "voiceacting": 1,
+            "op_ed": 1,
             "soundeffects": 0
           },
           "animation_art": {
-            "fight_scenes_general_smooth_movement": 0,
-            "character_design": 0,
-            "world_building": 0
+            "fight_scenes_general_smooth_movement": 1,
+            "character_design": 1,
+            "world_building": 2
           }
         },
         "subjective": {
@@ -16460,9 +16460,9 @@
             "enjoyable_content": 0
           },
           "characters": {
-            "likeable": 0,
+            "likeable": 2,
             "waifus": 0,
-            "relationships": 0
+            "relationships": 2
           },
           "memory": {
             "aftertaste": 0,
@@ -17956,6 +17956,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1745/128238.jpg",
+      "name": "Tensei shitara Slime Datta Ken Movie: Guren no Kizuna-hen",
+      "alt_name": "That Time I Got Reincarnated as a Slime: The Movie - Scarlet Bond",
+      "id": 49877,
+      "season": "Fall 2022",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4.2,
+            "antagonist": 2,
+            "side_characters": 3.5,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 2.8,
+            "logical": 3.5,
+            "plot": 4
+          },
+          "music_sound": {
+            "ost_bgm": 3,
+            "voiceacting": 2,
+            "op_ed": 0,
+            "soundeffects": 0.9
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3.1,
+            "character_design": 2,
+            "world_building": 1.5
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 4,
+            "climax": 5
+          },
+          "story": {
+            "satisfying_ending": 2.6,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 5
+          },
+          "characters": {
+            "likeable": 1.5,
+            "waifus": 0,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 2.2,
+            "addictive": 1.4,
+            "nostalgia": 3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1191/127909.jpg",
       "name": "Tensei shitara Ken deshita",
       "alt_name": "Reincarnated as a Sword",
@@ -18473,7 +18530,7 @@
       "name": "Suzume no Tojimari",
       "alt_name": "Suzume",
       "id": 50594,
-      "season": "Season Not Found None",
+      "season": "Fall 2022",
       "type": "Movie",
       "rating": {
         "objective": {

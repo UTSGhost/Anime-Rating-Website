@@ -18548,7 +18548,7 @@
           "music_sound": {
             "ost_bgm": 4,
             "voiceacting": 0,
-            "op_ed": 4,
+            "op_ed": 4.4,
             "soundeffects": 0
           },
           "animation_art": {
@@ -20230,6 +20230,63 @@
             "aftertaste": 1.5,
             "addictive": 3.8,
             "nostalgia": 3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1317/136666.jpg",
+      "name": "Spy Kyoushitsu 2nd Season",
+      "alt_name": "Spy Classroom Season 2",
+      "id": 54947,
+      "season": "Summer 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3,
+            "antagonist": 2.6,
+            "side_characters": 3,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 1.9,
+            "plot": 2.85
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 1,
+            "op_ed": 4,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 1,
+            "character_design": 1.5,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 2.5,
+            "climax": 3.3
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 1,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 1,
+            "nostalgia": 0.5
           }
         },
         "explain": "No review written yet"

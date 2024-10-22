@@ -13111,6 +13111,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1432/105265.jpg",
+      "name": "Uzumaki",
+      "alt_name": "Uzumaki: Spiral into Horror",
+      "id": 40333,
+      "season": "Fall 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3,
+            "antagonist": 2,
+            "side_characters": 2,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 3,
+            "plot": 3.1
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 1,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 0.5,
+            "character_design": 1,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 3,
+            "climax": 3.5
+          },
+          "story": {
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 3.5,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 1.5,
+            "waifus": 0,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 0.8,
+            "nostalgia": 0.9
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1143/121873.jpg",
       "name": "Tate no Yuusha no Nariagari Season 2",
       "alt_name": "The Rising of the Shield Hero Season 2",

@@ -20578,6 +20578,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1584/143719.jpg",
+      "name": "Dandadan",
+      "alt_name": "Dan Da Dan",
+      "id": 57334,
+      "season": "Fall 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4,
+            "antagonist": 4.5,
+            "side_characters": 4.2,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3.5,
+            "logical": 5,
+            "plot": 5
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 2,
+            "op_ed": 6,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 4,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 5,
+            "climax": 5
+          },
+          "story": {
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 5
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 1,
+            "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1332/143513.jpg",
       "name": "Make Heroine ga Oosugiru!",
       "alt_name": "Makeine: Too Many Losing Heroines!",

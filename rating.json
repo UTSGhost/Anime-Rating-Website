@@ -18412,6 +18412,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1087/144583.jpg",
+      "name": "Seirei Gensouki 2",
+      "alt_name": "Seirei Gensouki: Spirit Chronicles Season 2",
+      "id": 50306,
+      "season": "Fall 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 2.2,
+            "antagonist": 2,
+            "side_characters": 2,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 2,
+            "logical": 3,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 1,
+            "op_ed": 3,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 1,
+            "character_design": 1,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 2,
+            "climax": 2.5
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 1,
+            "enjoyable_content": 1.5
+          },
+          "characters": {
+            "likeable": 2,
+            "waifus": 0,
+            "relationships": 1
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 2.1,
+            "nostalgia": 1
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1996/133361.jpg",
       "name": "Tonikaku Kawaii 2nd Season",
       "alt_name": "TONIKAWA: Over The Moon For You Season 2",
@@ -19945,6 +20002,63 @@
             "aftertaste": 2,
             "addictive": 3,
             "nostalgia": 4.6
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1220/136619.jpg",
+      "name": "Fate/strange Fake: Whispers of Dawn",
+      "alt_name": "Fate/strange Fake: Whispers of Dawn",
+      "id": 53127,
+      "season": "Season Not Found None",
+      "type": "TV Special",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3,
+            "antagonist": 4,
+            "side_characters": 5,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 3,
+            "plot": 4
+          },
+          "music_sound": {
+            "ost_bgm": 0,
+            "voiceacting": 3,
+            "op_ed": 0,
+            "soundeffects": 3
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 5,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 4,
+            "climax": 5
+          },
+          "story": {
+            "satisfying_ending": 2.8,
+            "no_unnecessary_scenes": 4,
+            "enjoyable_content": 5
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 0.5,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"

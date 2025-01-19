@@ -20293,6 +20293,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1032/137893.jpg",
+      "name": "Hikikomari Kyuuketsuki no Monmon",
+      "alt_name": "The Vexations of a Shut-In Vampire Princess",
+      "id": 54103,
+      "season": "Fall 2023",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3.5,
+            "antagonist": 2.5,
+            "side_characters": 3.5,
+            "realistic": 2
+          },
+          "writing": {
+            "ending": 3.6,
+            "logical": 3.5,
+            "plot": 3.7
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 1,
+            "op_ed": 5.5,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2.8,
+            "character_design": 3,
+            "world_building": 2.5
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3.7,
+            "vibe": 3.5,
+            "climax": 4
+          },
+          "story": {
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 4
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 3,
+            "nostalgia": 1.5
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1996/133361.jpg",
       "name": "Kage no Jitsuryokusha ni Naritakute! 2nd Season",
       "alt_name": "The Eminence in Shadow Season 2",

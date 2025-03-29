@@ -20464,6 +20464,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1706/144725.jpg",
+      "name": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+      "alt_name": "Re:ZERO -Starting Life in Another World- Season 3",
+      "id": 54857,
+      "season": "Fall 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 4,
+            "side_characters": 4,
+            "realistic": 2
+          },
+          "writing": {
+            "ending": 5,
+            "logical": 3,
+            "plot": 5
+          },
+          "music_sound": {
+            "ost_bgm": 2,
+            "voiceacting": 3,
+            "op_ed": 2,
+            "soundeffects": 2
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 5,
+            "character_design": 3,
+            "world_building": 4
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 4,
+            "climax": 7
+          },
+          "story": {
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 2.5,
+            "enjoyable_content": 5.6
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 0,
+            "relationships": 4
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 3,
+            "nostalgia": 3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1317/136666.jpg",
       "name": "Spy Kyoushitsu 2nd Season",
       "alt_name": "Spy Classroom Season 2",
@@ -20857,6 +20914,63 @@
             "aftertaste": 3,
             "addictive": 3,
             "nostalgia": 4
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1448/147351.jpg",
+      "name": "Ore dake Level Up na Ken Season 2: Arise from the Shadow",
+      "alt_name": "Solo Leveling Season 2: Arise from the Shadow",
+      "id": 58567,
+      "season": "Winter 2025",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 3.5,
+            "side_characters": 3,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 4,
+            "logical": 3.5,
+            "plot": 4
+          },
+          "music_sound": {
+            "ost_bgm": 1,
+            "voiceacting": 1,
+            "op_ed": 2,
+            "soundeffects": 2
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 6,
+            "character_design": 2,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 5,
+            "vibe": 5,
+            "climax": 6.3
+          },
+          "story": {
+            "satisfying_ending": 5,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 6
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 4,
+            "addictive": 4,
+            "nostalgia": 2
           }
         },
         "explain": "No review written yet"

@@ -115,6 +115,63 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1470/138723.jpg",
+      "name": "Howl no Ugoku Shiro",
+      "alt_name": "Howl's Moving Castle",
+      "id": 431,
+      "season": "Season Not Found None",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 6,
+            "antagonist": 3,
+            "side_characters": 6,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 4.5,
+            "plot": 6
+          },
+          "music_sound": {
+            "ost_bgm": 6,
+            "voiceacting": 2,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 4,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 5,
+            "vibe": 5,
+            "climax": 2
+          },
+          "story": {
+            "satisfying_ending": 3.9,
+            "no_unnecessary_scenes": 3.6,
+            "enjoyable_content": 5
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 5
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 2,
+            "nostalgia": 4
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/7/75808.jpg",
       "name": "Hotaru no Haka",
       "alt_name": "Grave of the Fireflies",

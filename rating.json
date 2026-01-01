@@ -119,7 +119,7 @@
       "name": "Howl no Ugoku Shiro",
       "alt_name": "Howl's Moving Castle",
       "id": 431,
-      "season": "Season Not Found None",
+      "season": "Fall 2004",
       "type": "Movie",
       "rating": {
         "objective": {
@@ -1715,7 +1715,7 @@
       "name": "Karigurashi no Arrietty",
       "alt_name": "The Secret World of Arrietty",
       "id": 7711,
-      "season": "Season Not Found None",
+      "season": "Summer 2010",
       "type": "Movie",
       "rating": {
         "objective": {
@@ -4052,7 +4052,7 @@
       "name": "Kaze Tachinu",
       "alt_name": "The Wind Rises",
       "id": 16662,
-      "season": "Season Not Found None",
+      "season": "Summer 2013",
       "type": "Movie",
       "rating": {
         "objective": {
@@ -7469,7 +7469,7 @@
     },
     {
       "img": "https://cdn.myanimelist.net/images/anime/2/84797.jpg",
-      "name": "Saenai Heroine no Sodatekata \u266d",
+      "name": "Saenai Heroine no Sodatekata ♭",
       "alt_name": "Saekano: How to Raise a Boring Girlfriend .flat",
       "id": 30727,
       "season": "Spring 2017",
@@ -9123,7 +9123,7 @@
     {
       "img": "https://cdn.myanimelist.net/images/anime/11/84673.jpg",
       "name": "Pokemon Sun & Moon",
-      "alt_name": "Pok\u00e9mon the Series: Sun & Moon",
+      "alt_name": "Pokémon the Series: Sun & Moon",
       "id": 34034,
       "season": "Fall 2016",
       "type": "TV",
@@ -13225,8 +13225,65 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1306/112616.jpg",
+      "name": "Meitantei Conan Movie 24: Hiiro no Dangan",
+      "alt_name": "Detective Conan Movie 24: The Scarlet Bullet",
+      "id": 39764,
+      "season": "Spring 2021",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 1,
+            "side_characters": 4,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 2,
+            "logical": 2,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 6,
+            "voiceacting": 0,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 4,
+            "character_design": 1,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 4,
+            "climax": 2
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 4
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 2,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 1,
+            "nostalgia": 1
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1775/109514.jpg",
-      "name": "5-toubun no Hanayome \u222c",
+      "name": "5-toubun no Hanayome ∬",
       "alt_name": "The Quintessential Quintuplets 2",
       "id": 39783,
       "type": "TV",
@@ -14765,8 +14822,8 @@
     },
     {
       "img": "https://cdn.myanimelist.net/images/anime/1011/113703.jpg",
-      "name": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu \u03a9",
-      "alt_name": "How Not to Summon a Demon Lord \u03a9",
+      "name": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu Ω",
+      "alt_name": "How Not to Summon a Demon Lord Ω",
       "id": 41623,
       "season": "Spring 2021",
       "type": "TV",
@@ -15849,7 +15906,7 @@
     {
       "img": "https://cdn.myanimelist.net/images/anime/1109/118948.jpg",
       "name": "Rikei ga Koi ni Ochita no de Shoumei shitemita. Heart",
-      "alt_name": "Science Fell in Love, So I Tried to Prove It r=1-sin\u03b8",
+      "alt_name": "Science Fell in Love, So I Tried to Prove It r=1-sinθ",
       "id": 43470,
       "season": "Spring 2022",
       "type": "TV",
@@ -17217,7 +17274,7 @@
     {
       "img": "https://cdn.myanimelist.net/images/anime/1475/137152.jpg",
       "name": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II",
-      "alt_name": "The Misfit of Demon King Academy \u2161",
+      "alt_name": "The Misfit of Demon King Academy Ⅱ",
       "id": 48417,
       "season": "Winter 2023",
       "type": "TV",
@@ -18007,6 +18064,63 @@
             "aftertaste": 0,
             "addictive": 0,
             "nostalgia": 0
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1744/120789.jpg",
+      "name": "Meitantei Conan Movie 25: Halloween no Hanayome",
+      "alt_name": "Detective Conan Movie 25: The Bride of Halloween",
+      "id": 49320,
+      "season": "Spring 2022",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 3.5,
+            "side_characters": 5,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 2,
+            "plot": 3.5
+          },
+          "music_sound": {
+            "ost_bgm": 6,
+            "voiceacting": 0,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 2,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 4,
+            "climax": 3
+          },
+          "story": {
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 4,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 1,
+            "relationships": 1
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 3,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"
@@ -20240,7 +20354,7 @@
       "name": "Fate/strange Fake: Whispers of Dawn",
       "alt_name": "Fate/strange Fake: Whispers of Dawn",
       "id": 53127,
-      "season": "Season Not Found None",
+      "season": "Summer 2023",
       "type": "TV Special",
       "rating": {
         "objective": {
@@ -20344,6 +20458,63 @@
             "aftertaste": 2,
             "addictive": 3,
             "nostalgia": 0.3
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1138/133101.jpg",
+      "name": "Meitantei Conan Movie 26: Kurogane no Submarine",
+      "alt_name": "Detective Conan Movie 26: Black Iron Submarine",
+      "id": 53540,
+      "season": "Spring 2024",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 4,
+            "side_characters": 4,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 4,
+            "logical": 3,
+            "plot": 3.65
+          },
+          "music_sound": {
+            "ost_bgm": 6,
+            "voiceacting": 0,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 4,
+            "character_design": 3,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 5,
+            "vibe": 4,
+            "climax": 5
+          },
+          "story": {
+            "satisfying_ending": 4,
+            "no_unnecessary_scenes": 5,
+            "enjoyable_content": 5
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 1,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 2,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"
@@ -21034,6 +21205,120 @@
       }
     },
     {
+      "img": "https://cdn.myanimelist.net/images/anime/1888/141209.jpg",
+      "name": "Meitantei Conan Movie 27: 100-man Dollar no Michishirube",
+      "alt_name": "Detective Conan Movie 27: The Million-Dollar Pentagram",
+      "id": 56785,
+      "season": "Spring 2024",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 1.5,
+            "side_characters": 4,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 3,
+            "plot": 3
+          },
+          "music_sound": {
+            "ost_bgm": 6,
+            "voiceacting": 0,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 3,
+            "world_building": 3
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 2,
+            "climax": 2
+          },
+          "story": {
+            "satisfying_ending": 6,
+            "no_unnecessary_scenes": 2,
+            "enjoyable_content": 2.5
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 1.5,
+            "nostalgia": 1
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1103/142513.jpg",
+      "name": "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
+      "alt_name": "Chillin' in Another World with Level 2 Super Cheat Powers",
+      "id": 56923,
+      "season": "Spring 2024",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 3,
+            "antagonist": 2,
+            "side_characters": 3.5,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 2,
+            "logical": 3,
+            "plot": 0.5
+          },
+          "music_sound": {
+            "ost_bgm": 3,
+            "voiceacting": 0,
+            "op_ed": 1.5,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 2,
+            "character_design": 3,
+            "world_building": 1.5
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4,
+            "vibe": 4,
+            "climax": 3
+          },
+          "story": {
+            "satisfying_ending": 6,
+            "no_unnecessary_scenes": 1,
+            "enjoyable_content": 3
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 2,
+            "addictive": 4,
+            "nostalgia": 1
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
       "img": "https://cdn.myanimelist.net/images/anime/1584/143719.jpg",
       "name": "Dandadan",
       "alt_name": "Dan Da Dan",
@@ -21199,6 +21484,120 @@
             "aftertaste": 4,
             "addictive": 4,
             "nostalgia": 2
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1697/151793.jpg",
+      "name": "Spy x Family Season 3",
+      "alt_name": "Spy x Family Season 3",
+      "id": 59027,
+      "season": "Fall 2025",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 5,
+            "antagonist": 3,
+            "side_characters": 6,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 5,
+            "plot": 5
+          },
+          "music_sound": {
+            "ost_bgm": 2,
+            "voiceacting": 2,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3.5,
+            "character_design": 3,
+            "world_building": 2.5
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 6,
+            "vibe": 5,
+            "climax": 4
+          },
+          "story": {
+            "satisfying_ending": 3.75,
+            "no_unnecessary_scenes": 5,
+            "enjoyable_content": 5
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 3
+          },
+          "memory": {
+            "aftertaste": 3,
+            "addictive": 4,
+            "nostalgia": 1.25
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://cdn.myanimelist.net/images/anime/1036/148145.jpg",
+      "name": "Meitantei Conan Movie 28: Sekigan no Flashback",
+      "alt_name": "Detective Conan Movie 28: One-Eyed Flashback",
+      "id": 60445,
+      "season": "Spring 2025",
+      "type": "Movie",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4,
+            "antagonist": 2,
+            "side_characters": 3.5,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 2,
+            "logical": 2,
+            "plot": 2.5
+          },
+          "music_sound": {
+            "ost_bgm": 6,
+            "voiceacting": 0,
+            "op_ed": 2,
+            "soundeffects": 0
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 3,
+            "character_design": 2.5,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 3,
+            "vibe": 1.25,
+            "climax": 3
+          },
+          "story": {
+            "satisfying_ending": 2,
+            "no_unnecessary_scenes": 2,
+            "enjoyable_content": 2
+          },
+          "characters": {
+            "likeable": 3,
+            "waifus": 0,
+            "relationships": 2
+          },
+          "memory": {
+            "aftertaste": 1.5,
+            "addictive": 2,
+            "nostalgia": 1
           }
         },
         "explain": "No review written yet"

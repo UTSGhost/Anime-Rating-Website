@@ -37,6 +37,7 @@ function buildTableFast(animes) {
     
     // Nummerierung initialisieren
     numberleft();
+    sort(false, 'mal_rating');
 }
 
 function calculateMeanScore() {

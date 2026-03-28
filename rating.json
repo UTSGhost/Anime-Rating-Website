@@ -20429,7 +20429,7 @@
           "music_sound": {
             "ost_bgm": 2,
             "voiceacting": 0,
-            "op_ed": 8,
+            "op_ed": 8.05,
             "soundeffects": 0
           },
           "animation_art": {
@@ -21313,6 +21313,63 @@
             "aftertaste": 1,
             "addictive": 1,
             "nostalgia": 1
+          }
+        },
+        "explain": "No review written yet"
+      }
+    },
+    {
+      "img": "https://myanimelist.net/images/anime/1752/150192.jpg",
+      "name": "Fate/strange Fake",
+      "alt_name": "Fate/strange Fake",
+      "id": 55830,
+      "season": "Winter 2026",
+      "type": "TV",
+      "rating": {
+        "objective": {
+          "characters": {
+            "protagonist": 4,
+            "antagonist": 5,
+            "side_characters": 4,
+            "realistic": 0
+          },
+          "writing": {
+            "ending": 3,
+            "logical": 3,
+            "plot": 5
+          },
+          "music_sound": {
+            "ost_bgm": 4,
+            "voiceacting": 2,
+            "op_ed": 1,
+            "soundeffects": 3
+          },
+          "animation_art": {
+            "fight_scenes_general_smooth_movement": 7.5,
+            "character_design": 2,
+            "world_building": 2
+          }
+        },
+        "subjective": {
+          "emotions": {
+            "comedic_sad_thrilling": 4.5,
+            "vibe": 5,
+            "climax": 5.5
+          },
+          "story": {
+            "satisfying_ending": 3,
+            "no_unnecessary_scenes": 3,
+            "enjoyable_content": 6.4
+          },
+          "characters": {
+            "likeable": 4,
+            "waifus": 0,
+            "relationships": 5
+          },
+          "memory": {
+            "aftertaste": 2.5,
+            "addictive": 4,
+            "nostalgia": 3
           }
         },
         "explain": "No review written yet"
